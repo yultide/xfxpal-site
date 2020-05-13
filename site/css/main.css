@@ -1,0 +1,34 @@
+p,div {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+}
+
+.profile {
+    background-size: cover;
+    background-position: center;
+}
+
+.summary {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.summary p.collapse:not(.show) {
+    height: 80px !important;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.summary p.collapsing {
+    min-height: 80px !important;
+}
+
+.summary a.collapsed:after  {
+    content: '>> Read more';
+}
+
+.summary a:not(.collapsed):after {
+    content: '<< Read more';
+}
