@@ -84,7 +84,7 @@ const IDCard = (
         <Card.Description>{blurb}</Card.Description>
       </Card.Content>
       <Card.Content textAlign='left'>
-        <Grid columns={3}>
+        <Grid container columns={3}>
           <Grid.Row>
             {getLinkColumn('linkedin', 'LinkedIn', linkedin)}
             {getLinkColumn('lab', 'Scholar', scholar)}
