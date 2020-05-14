@@ -14,7 +14,7 @@ export const peopleMap = {
   m: 'mattlee.jpg',
   'Mitesh Patel': 'mitesh.jpg',
   q: 'qiong.jpg',
-  t: 'tony.jpg',
+  'Anthony Dunnigan': 'tony.jpg',
   'Yanxia Zhang': 'yanxia.jpg',
   y: 'yanying.jpg'
 };
