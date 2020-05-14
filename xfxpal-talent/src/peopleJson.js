@@ -34,7 +34,7 @@ export const peopleJson = [
     'Google Scholar': 'https://scholar.google.com/citations?user=ge8g4uoAAAAJ&hl=en',
     Resume: 'http://shamur.ai/cv.pdf',
     'Other Website': 'https://shamur.ai/',
-    'Pretty Name for Other Website': '',
+    'Pretty Name for Other Website': 'Website',
     Photo: 'https://drive.google.com/u/0/open?usp=forms_web&id=1UFbNb6CH1A4G3Nzld14P4OEGXKE1hOiV'
   },
   {

@@ -33,6 +33,18 @@ const FixedMenuLayout = () => (
   </div>
 );
 
+const getLinkColumn = (icon, label, link) => {
+  if (link !== '') {
+    return (
+      <Grid.Column>
+        <a target='_blank' rel='noopener noreferrer' href={link}>
+          <Icon name={icon} /> {label}{' '}
+        </a>
+      </Grid.Column>
+    );
+  }
+};
+
 const IDCard = (
   name,
   title = 'Senior Scientist',
@@ -67,27 +79,13 @@ const IDCard = (
       <Card.Content textAlign='left' className='blackleft'>
         <Grid columns={3}>
           <Grid.Row>
-            <Grid.Column>
-              <Icon name='linkedin' /> LinkedIn{' '}
-            </Grid.Column>
-            <Grid.Column>
-              <Icon name='lab' /> Scholar{' '}
-            </Grid.Column>
-            <Grid.Column>
-              <Icon name='file alternate' /> Resume{' '}
-            </Grid.Column>
-            <Grid.Column>
-              <Icon name='github' /> GitHub{' '}
-            </Grid.Column>
-            <Grid.Column>
-              <Icon name='twitter' /> Twitter{' '}
-            </Grid.Column>
-            <Grid.Column>
-              <Icon name='instagram' /> Instagram{' '}
-            </Grid.Column>
-            <Grid.Column>
-              <Icon name='globe' /> {webname}{' '}
-            </Grid.Column>
+            {getLinkColumn('linkedin', 'LinkedIn', linkedin)}
+            {getLinkColumn('lab', 'Scholar', scholar)}
+            {getLinkColumn('file alternate', 'CV/Resume', resume)}
+            {getLinkColumn('github', 'GitHub', github)}
+            {getLinkColumn('twitter', 'Twitter', twitter)}
+            {getLinkColumn('instagram', 'Instagram', instagram)}
+            {getLinkColumn('globe', webname, website)}
           </Grid.Row>
         </Grid>
       </Card.Content>
@@ -98,7 +96,22 @@ const makeIDs = () => {
   return (
     <Card.Group itemsPerRow='2'>
       {peopleJson.map((pj) =>
-        IDCard(pj['Name'], pj['Job Title'], pj['Job Function'], pj.Location, pj['Location Options'], pj.Description)
+        IDCard(
+          pj['Name'],
+          pj['Job Title'],
+          pj['Job Function'],
+          pj.Location,
+          pj['Location Options'],
+          pj.Description,
+          pj.LinkedIn,
+          pj['Google Scholar'],
+          pj.Resume,
+          pj.GitHub,
+          pj['Twitter?'],
+          pj.Instagram,
+          pj['Other Website'],
+          pj['Pretty Name for Other Website']
+        )
       )}{' '}
     </Card.Group>
   );
