@@ -135,7 +135,7 @@ function App() {
         <Header
           as='h1'
           style={style.h1}
-          content='Browse through the talented individuals who have worked at FXPAL.'
+          content='See the amazing scientists and engineers who have worked at FXPAL.'
           textAlign='center'
         />
         {makeIDs()}
