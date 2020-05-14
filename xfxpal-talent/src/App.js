@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Header, Icon, Image, Menu, Card } from 'semantic-ui-react';
+import { Container, Header, Icon, Image, Card } from 'semantic-ui-react';
 
 import { peopleJson } from './peopleJson';
 import { peopleMap } from './peopleMap';
@@ -22,26 +22,12 @@ const style = {
   }
 };
 
-const FixedMenuLayout = () => (
-  <div>
-    <Menu fixed='top' inverted>
-      <Container>
-        <Menu.Item as='a' header>
-          FXPAL Talent
-        </Menu.Item>
-      </Container>
-    </Menu>
-  </div>
-);
-
-const getLinkColumn = (icon, label, link) => {
+const getLink = (icon, label, link) => {
   if (link !== '') {
     return (
-      <Grid.Column>
-        <a target='_blank' rel='noopener noreferrer' href={link}>
-          <Icon name={icon} /> {label}{' '}
-        </a>
-      </Grid.Column>
+      <a target='_blank' rel='noopener noreferrer' href={link} style={{ display: 'inline-block', minWidth: '90px' }}>
+        <Icon name={icon} />{' '}{label}{' '}
+      </a>
     );
   }
 };
@@ -84,21 +70,15 @@ const IDCard = (
           <div>
             <span style={{ fontStyle: 'italic', color: '#777' }}>{region}</span>
           </div>
+          {getLink('linkedin', 'LinkedIn', linkedin)}
+          {getLink('lab', 'Scholar', scholar)}
+          {getLink('file alternate', 'Resume', resume)}
+          {getLink('github', 'GitHub', github)}
+          {getLink('twitter', 'Twitter', twitter)}
+          {getLink('instagram', 'Instagram', instagram)}
+          {getLink('globe', webname, website)}
         </Card.Meta>
         <Card.Description>{blurb}</Card.Description>
-      </Card.Content>
-      <Card.Content textAlign='left'>
-        <Grid container columns={3}>
-          <Grid.Row>
-            {getLinkColumn('linkedin', 'LinkedIn', linkedin)}
-            {getLinkColumn('lab', 'Scholar', scholar)}
-            {getLinkColumn('file alternate', 'Resume', resume)}
-            {getLinkColumn('github', 'GitHub', github)}
-            {getLinkColumn('twitter', 'Twitter', twitter)}
-            {getLinkColumn('instagram', 'Instagram', instagram)}
-            {getLinkColumn('globe', webname, website)}
-          </Grid.Row>
-        </Grid>
       </Card.Content>
     </Card>
   );
@@ -135,8 +115,7 @@ const makeIDs = () => {
 function App() {
   return (
     <div className='App'>
-      <Container style={{ marginTop: '5em' }}>
-        <FixedMenuLayout />
+      <Container style={{ marginTop: '2em' }}>
         <Header
           as='h1'
           style={style.h1}
