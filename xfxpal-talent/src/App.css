@@ -1,3 +1,7 @@
+* {
+  line-height: 1.5em;
+  font-size: 1.1rem;
+}
 p,div {
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
 }
