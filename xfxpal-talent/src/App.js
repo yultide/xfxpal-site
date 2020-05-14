@@ -17,6 +17,10 @@ const style = {
     marginTop: '2em',
     padding: '2em 0em'
   },
+  iconbar: {
+    marginTop: '1em',
+    marginBottom: '1em'
+  },
   last: {
     marginBottom: '300px'
   }
@@ -26,7 +30,7 @@ const getLink = (icon, label, link) => {
   if (link !== '') {
     return (
       <a target='_blank' rel='noopener noreferrer' href={link} style={{ display: 'inline-block', minWidth: '90px' }}>
-        <Icon name={icon} />{' '}{label}{' '}
+        <Icon name={icon} /> {label}{' '}
       </a>
     );
   }
@@ -70,13 +74,15 @@ const IDCard = (
           <div>
             <span style={{ fontStyle: 'italic', color: '#777' }}>{region}</span>
           </div>
-          {getLink('linkedin', 'LinkedIn', linkedin)}
-          {getLink('lab', 'Scholar', scholar)}
-          {getLink('file alternate', 'Resume', resume)}
-          {getLink('github', 'GitHub', github)}
-          {getLink('twitter', 'Twitter', twitter)}
-          {getLink('instagram', 'Instagram', instagram)}
-          {getLink('globe', webname, website)}
+          <div style={style.iconbar}>
+            {getLink('linkedin', 'LinkedIn', linkedin)}
+            {getLink('lab', 'Scholar', scholar)}
+            {getLink('file alternate', 'Resume', resume)}
+            {getLink('github', 'GitHub', github)}
+            {getLink('twitter', 'Twitter', twitter)}
+            {getLink('instagram', 'Instagram', instagram)}
+            {getLink('globe', webname, website)}
+          </div>
         </Card.Meta>
         <Card.Description>{blurb}</Card.Description>
       </Card.Content>
