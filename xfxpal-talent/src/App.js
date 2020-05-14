@@ -59,11 +59,12 @@ const IDCard = (
   twitter = '',
   instagram = '',
   website = '',
-  webname = 'Website'
+  webname = 'Website',
+  imagefile = ''
 ) => (
     <Card fluid>
       <Card.Content textAlign='left'>
-        <Image floated='right' size='mini' src='/images/avatar/large/steve.jpg' />
+        <Image floated='right' size='mini' src={process.env.PUBLIC_URL + 'images/img.jpg'} />
         <Card.Header>{name}</Card.Header>
         <Card.Meta>
           <div>
@@ -81,7 +82,7 @@ const IDCard = (
           <Grid.Row>
             {getLinkColumn('linkedin', 'LinkedIn', linkedin)}
             {getLinkColumn('lab', 'Scholar', scholar)}
-            {getLinkColumn('file alternate', 'CV/Resume', resume)}
+            {getLinkColumn('file alternate', 'Resume', resume)}
             {getLinkColumn('github', 'GitHub', github)}
             {getLinkColumn('twitter', 'Twitter', twitter)}
             {getLinkColumn('instagram', 'Instagram', instagram)}
@@ -111,7 +112,8 @@ const makeIDs = () => {
           pj['Twitter?'],
           pj.Instagram,
           pj['Other Website'],
-          pj['Pretty Name for Other Website']
+          pj['Pretty Name for Other Website'],
+          'image.jpg'
         )
       )}{' '}
     </Card.Group>

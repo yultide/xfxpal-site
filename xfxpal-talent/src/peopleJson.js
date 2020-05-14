@@ -4,8 +4,8 @@ export const peopleJson = [
     Name: 'Mitesh Patel',
     'Job Title': 'Senior Research Scientist',
     'Job Function': 'Research & Development',
-    Location: 'Bay Area',
-    'Location Options': 'Open to Local Area;Open to Remote',
+    Location: 'San Francisco Bay Area',
+    'Location Options': 'Open to Remote',
     Description:
       'Over 10 years of research experience in modelling user behavior using low level sensors, sensor fusion, indoor localization, data mining and applying machine learning algorithms including probabilistic graphical models, classification, regression to a given problem',
     LinkedIn: 'http://www.linkedin.com/in/patelmiteshn',
@@ -24,7 +24,7 @@ export const peopleJson = [
     'Job Title': 'Senior Research Scientist',
     'Job Function': 'Research, Prototyping, Engineering',
     Location: 'San Francisco',
-    'Location Options': 'Open to Local Area;Open to Remote',
+    'Location Options': 'Open to Remote',
     Description:
       'At FXPAL, my research focused on the intersection of AI and human-computer interaction; I designed, developed, prototyped, tested, and patented many future-of-work systems including: AI for smart consumer cameras, enterprise devices, and IoT, gaze and presence in 360° video conferencing, VR environments for remote meetings.  This included architecting backend systems, as well as, working with designers for 3D device prototypes.  My prior 10 years experience was at Yahoo Labs where I was the Director of Research at Flickr and working on social computing.',
     LinkedIn: 'https://www.linkedin.com/in/aymans/',
@@ -42,8 +42,8 @@ export const peopleJson = [
     Name: 'Kandha Sankarapandian',
     'Job Title': 'Senior Development Manager',
     'Job Function': 'Engineering, Business Innovation',
-    Location: 'Bay Area',
-    'Location Options': 'Open to Local Area;Open to Remote',
+    Location: 'San Francisco Bay Area',
+    'Location Options': 'Open to Remote',
     Description:
       'Hands-on Senior Development Manager with 15 years of technical leadership, team mentorship and strong coding, prototyping skills. Experienced in leading and mentoring global product development teams of various sizes, with multiple successful product & business launches under the belt. Evaluated and helped adopt cutting edge technologies such as Machine Learning, Serverless Computing, DevOps, IoT, Blockchain etc. for agile prototyping and eventual productization. Expert at Lean Innovation with multiple granted US patents. Usable Security specialist.',
     LinkedIn: 'https://www.linkedin.com/in/kandhas/',
@@ -61,7 +61,7 @@ export const peopleJson = [
     Name: 'Andreas Girgensohn',
     'Job Title': 'Distinguished Scientist',
     'Job Function': 'Research, Engineering',
-    Location: 'Bay Area',
+    Location: 'San Francisco Bay Area',
     'Location Options': 'Open to Local Area',
     Description:
       'Accomplished researcher leveraging multimedia and HCI for creating rich, usable multimedia applications such as video surveillance, leading to many patents and publications.  Filled the roles of full-stack engineer and software architect for web-based, iOS, and Android projects.  Very familiar with frameworks and languages such as React, Node.js, Numpy, Flask, JAX-RS, JavaScript, Java, Swift, C++, C#, Docker, AWS.',
@@ -81,7 +81,7 @@ export const peopleJson = [
     Name: 'Yanxia Zhang',
     'Job Title': 'Research Scientist',
     'Job Function': 'Research, Engineering',
-    Location: 'Bay Area',
+    Location: 'San Francisco Bay Area',
     'Location Options': 'Open to Local Area',
     Description: 'Machine learning, Computer Vision, Data Science',
     LinkedIn: '',
