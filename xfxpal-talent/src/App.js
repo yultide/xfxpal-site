@@ -65,7 +65,7 @@ const IDCard = (
 ) => (
     <Card fluid>
       <Card.Content textAlign='left'>
-        <Image floated='right' size='mini' src={process.env.PUBLIC_URL + imagefile} />
+        <Image floated='right' size='small' src={process.env.PUBLIC_URL + 'images/' + imagefile} />
         <Card.Header>{name}</Card.Header>
         <Card.Meta>
           <div>
