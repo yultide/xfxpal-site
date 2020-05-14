@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Grid, Header, Icon, Image, Menu, Card } from 'semantic-ui-react';
 
+import { peopleJson } from './peopleJson';
+
 import './App.css';
 
 const style = {
@@ -37,8 +39,15 @@ const IDCard = (
   role,
   location = 'San Francisco Bay Area',
   locoption = '',
-  blurb = 'Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.',
-  other = 'Website'
+  blurb = '',
+  linkedin = '',
+  scholar = '',
+  resume = '',
+  github = '',
+  twitter = '',
+  instagram = '',
+  website = '',
+  webname = 'Website'
 ) => (
     <Card fluid>
       <Card.Content textAlign='left'>
@@ -77,7 +86,7 @@ const IDCard = (
               <Icon name='instagram' /> Instagram{' '}
             </Grid.Column>
             <Grid.Column>
-              <Icon name='globe' /> {other}{' '}
+              <Icon name='globe' /> {webname}{' '}
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -85,24 +94,15 @@ const IDCard = (
     </Card>
   );
 
-const CardExampleGroups = () => (
-  <Card.Group itemsPerRow='2'>
-    {IDCard(
-      'David A. Shamma',
-      'Senior Research Scientist',
-      'Research, Engineering, Prototyping',
-      'San Francisco',
-      'Open to Remote'
-    )}
-    {IDCard(
-      'Mitesh Patel',
-      'Senior Research Scientist',
-      'Research & Development',
-      'San Francisco Bay Area',
-      'Open to Remote'
-    )}
-  </Card.Group>
-);
+const makeIDs = () => {
+  return (
+    <Card.Group itemsPerRow='2'>
+      {peopleJson.map((pj) =>
+        IDCard(pj['Name'], pj['Job Title'], pj['Job Function'], pj.Location, pj['Location Options'], pj.Description)
+      )}{' '}
+    </Card.Group>
+  );
+};
 
 function App() {
   return (
@@ -115,7 +115,7 @@ function App() {
           content='Browse through the talented individuals who have worked at FXPAL.'
           textAlign='center'
         />
-        {CardExampleGroups()}
+        {makeIDs()}
       </Container>
     </div>
   );
