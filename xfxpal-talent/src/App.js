@@ -68,6 +68,9 @@ const IDCard = (
   if (locoption !== '') {
     region += ' (' + locoption + ')';
   }
+  if (website !== '' && webname === '') {
+    webname = 'Website';
+  }
   return (
     <Card fluid key={key}>
       <Card.Content textAlign='left'>
@@ -79,7 +82,7 @@ const IDCard = (
             <span style={{ color: '#555' }}>{role}</span>
           </div>
           <div>
-            <span style={{ 'fontStyle': 'italic', color: '#777' }}>{region}</span>
+            <span style={{ fontStyle: 'italic', color: '#777' }}>{region}</span>
           </div>
         </Card.Meta>
         <Card.Description>{blurb}</Card.Description>
@@ -133,7 +136,7 @@ function App() {
   return (
     <div className='App'>
       <Container style={{ marginTop: '5em' }}>
-        <FixedMenuLayout/>
+        <FixedMenuLayout />
         <Header
           as='h1'
           style={style.h1}
