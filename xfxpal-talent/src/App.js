@@ -47,6 +47,7 @@ const getLinkColumn = (icon, label, link) => {
 };
 
 const IDCard = (
+  key,
   name,
   title = 'Senior Scientist',
   role,
@@ -68,7 +69,7 @@ const IDCard = (
     region += ' (' + locoption + ')';
   }
   return (
-    <Card fluid>
+    <Card fluid key={key}>
       <Card.Content textAlign='left'>
         <Image rounded floated='right' size='small' src={process.env.PUBLIC_URL + 'images/' + imagefile} />
         <Card.Header>{name}</Card.Header>
@@ -78,7 +79,7 @@ const IDCard = (
             <span style={{ color: '#555' }}>{role}</span>
           </div>
           <div>
-            <span style={{ 'font-style': 'italic', color: '#777' }}>{region}</span>
+            <span style={{ 'fontStyle': 'italic', color: '#777' }}>{region}</span>
           </div>
         </Card.Meta>
         <Card.Description>{blurb}</Card.Description>
@@ -104,8 +105,9 @@ const makeIDs = () => {
   peopleJson.sort((a, b) => a.Name.localeCompare(b.Name));
   return (
     <Card.Group itemsPerRow='2' stackable={true}>
-      {peopleJson.map((pj) =>
+      {peopleJson.map((pj, i) =>
         IDCard(
+          i,
           pj['Name'],
           pj['Job Title'],
           pj['Job Function'],
@@ -131,7 +133,7 @@ function App() {
   return (
     <div className='App'>
       <Container style={{ marginTop: '5em' }}>
-        {FixedMenuLayout()}
+        <FixedMenuLayout/>
         <Header
           as='h1'
           style={style.h1}
