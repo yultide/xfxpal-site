@@ -1,5 +1,9 @@
 # xfxpal.com Talent Website
 
+## Site
+
+[XFXPAL](https://xfxpal.com)
+
 ## How to Build
 1. Get the CSV file from the Google Doc form. 
 2. Convert it to json using some [website or something](https://csvjson.com/csv2json).

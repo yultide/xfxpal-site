@@ -103,7 +103,7 @@ const IDCard = (
 const makeIDs = () => {
   peopleJson.sort((a, b) => a.Name.localeCompare(b.Name));
   return (
-    <Card.Group itemsPerRow='2'>
+    <Card.Group itemsPerRow='2' stackable={true}>
       {peopleJson.map((pj) =>
         IDCard(
           pj['Name'],
