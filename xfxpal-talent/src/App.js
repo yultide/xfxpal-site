@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Grid, Header, Icon, Image, Menu, Card } from 'semantic-ui-react';
 
 import { peopleJson } from './peopleJson';
+import { peopleMap } from './peopleMap';
 
 import './App.css';
 
@@ -64,7 +65,7 @@ const IDCard = (
 ) => (
     <Card fluid>
       <Card.Content textAlign='left'>
-        <Image floated='right' size='mini' src={process.env.PUBLIC_URL + 'images/img.jpg'} />
+        <Image floated='right' size='mini' src={process.env.PUBLIC_URL + imagefile} />
         <Card.Header>{name}</Card.Header>
         <Card.Meta>
           <div>
@@ -113,7 +114,7 @@ const makeIDs = () => {
           pj.Instagram,
           pj['Other Website'],
           pj['Pretty Name for Other Website'],
-          'image.jpg'
+          peopleMap[pj['Name']]
         )
       )}{' '}
     </Card.Group>
