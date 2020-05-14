@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, Icon, Image, Menu, Card } from 'semantic-ui-react';
+import { Container, Header, Icon, Image, Card } from 'semantic-ui-react';
 
 import { peopleJson } from './peopleJson';
 import { peopleMap } from './peopleMap';
@@ -21,18 +21,6 @@ const style = {
     marginBottom: '300px'
   }
 };
-
-const FixedMenuLayout = () => (
-  <div>
-    <Menu fixed='top' inverted>
-      <Container>
-        <Menu.Item as='a' header>
-          FXPAL Talent
-        </Menu.Item>
-      </Container>
-    </Menu>
-  </div>
-);
 
 const getLink = (icon, label, link) => {
   if (link !== '') {
