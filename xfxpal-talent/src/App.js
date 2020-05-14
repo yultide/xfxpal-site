@@ -27,7 +27,7 @@ const FixedMenuLayout = () => (
     <Menu fixed='top' inverted>
       <Container>
         <Menu.Item as='a' header>
-          XFXPAL Talent
+          FXPAL Talent
         </Menu.Item>
       </Container>
     </Menu>
@@ -140,7 +140,7 @@ function App() {
         <Header
           as='h1'
           style={style.h1}
-          content='See the amazing scientists, engineers, and creatives who have worked at FXPAL.'
+          content='See the amazing scientists, engineers, and creatives at FXPAL'
           textAlign='center'
         />
         {makeIDs()}
