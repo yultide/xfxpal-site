@@ -90,8 +90,15 @@ const IDCard = (
   );
 };
 
+const shuffleArr = (array) => {
+  for (var i = array.length - 1; i > 0; i--) {
+    var rand = Math.floor(Math.random() * (i + 1));
+    [array[i], array[rand]] = [array[rand], array[i]];
+  }
+};
+
 const makeIDs = () => {
-  peopleJson.sort((a, b) => a.Name.localeCompare(b.Name));
+  shuffleArr(peopleJson);
   return (
     <Card.Group itemsPerRow='2' stackable={true}>
       {peopleJson.map((pj, i) =>
