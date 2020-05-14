@@ -62,7 +62,12 @@ const IDCard = (
   website = '',
   webname = 'Website',
   imagefile = ''
-) => (
+) => {
+  let region = location;
+  if (locoption !== '') {
+    region += ' (' + locoption + ')';
+  }
+  return (
     <Card fluid>
       <Card.Content textAlign='left'>
         <Image floated='right' size='small' src={process.env.PUBLIC_URL + 'images/' + imagefile} />
@@ -70,15 +75,15 @@ const IDCard = (
         <Card.Meta>
           <div>
             <span style={{ color: '#333' }}>{title}</span> <br />
-            <span className='role'>{role}</span>
+            <span style={{ color: '#555' }}>{role}</span>
           </div>
           <div>
-            ({location} &bull; {locoption})
-        </div>
+            <span style={{ 'font-style': 'italic', color: '#777' }}>{region}</span>
+          </div>
         </Card.Meta>
         <Card.Description>{blurb}</Card.Description>
       </Card.Content>
-      <Card.Content textAlign='left' className='blackleft'>
+      <Card.Content textAlign='left'>
         <Grid columns={3}>
           <Grid.Row>
             {getLinkColumn('linkedin', 'LinkedIn', linkedin)}
@@ -93,6 +98,7 @@ const IDCard = (
       </Card.Content>
     </Card>
   );
+};
 
 const makeIDs = () => {
   peopleJson.sort((a, b) => a.Name.localeCompare(b.Name));

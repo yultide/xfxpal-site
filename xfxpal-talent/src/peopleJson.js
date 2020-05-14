@@ -62,7 +62,7 @@ export const peopleJson = [
     'Job Title': 'Distinguished Scientist',
     'Job Function': 'Research, Engineering',
     Location: 'San Francisco Bay Area',
-    'Location Options': 'Open to Local Area',
+    'Location Options': '',
     Description:
       'Accomplished researcher leveraging multimedia and HCI for creating rich, usable multimedia applications such as video surveillance, leading to many patents and publications.  Filled the roles of full-stack engineer and software architect for web-based, iOS, and Android projects.  Very familiar with frameworks and languages such as React, Node.js, Numpy, Flask, JAX-RS, JavaScript, Java, Swift, C++, C#, Docker, AWS.',
     LinkedIn: 'https://www.linkedin.com/in/andreas-girgensohn-764110/',
@@ -82,7 +82,7 @@ export const peopleJson = [
     'Job Title': 'Research Scientist',
     'Job Function': 'Research, Engineering',
     Location: 'San Francisco Bay Area',
-    'Location Options': 'Open to Local Area',
+    'Location Options': '',
     Description: 'Machine learning, Computer Vision, Data Science',
     LinkedIn: '',
     GitHub: '',
