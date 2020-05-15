@@ -59,7 +59,8 @@ client.on("room.message", (roomId, event) => {
 
 function deploySite() {
     return new Promise(function(resolve, reject) {
-        exec('sudo /apps/xfxpal-site/xfxpal-talent/scripts/deploy.sh', function(err, stdout, stderr) {
+        const cmd = 'cd /apps/xfxpal-site/xfxpal-talent && sudo yarn deploy';
+        exec(cmd, function(err, stdout, stderr) {
             if (err) {
                 reject(stderr);
             } else {
