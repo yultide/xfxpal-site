@@ -1,0 +1,15 @@
+{
+  "name": "buildbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "matrix-bot-sdk": "^0.5.4",
+    "sequest": "^0.10.0"
+  }
+}
