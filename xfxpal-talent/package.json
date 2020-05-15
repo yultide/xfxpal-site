@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sync": "node scripts/sync.js",
-    "deploy": "bash scripts/deploy.sh",
+    "deploy": "bash scripts/deploy.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
