@@ -1,3 +1,4 @@
+const sequest = require('sequest')
 const MatrixClient = require("matrix-bot-sdk").MatrixClient;
 const AutojoinRoomsMixin = require("matrix-bot-sdk").AutojoinRoomsMixin;
 require('dotenv').config()
@@ -21,12 +22,12 @@ client.on("room.message", (roomId, event) => {
     if (event.content.body.startsWith('buildbot: ')) {
         const text = event.content.body.replace('buildbot: ', '')
         console.log('got => ', event.content.body);
-        if (text === 'build') {
+        if (text === 'deploy site') {
             client.sendMessage(roomId, {
                 "msgtype": "m.notice",
                 "body": "👍 Starting build...",
             })
-            deploy().then(function(result) {
+            deploySite().then(function(result) {
                 lastResult = result;
                 lastError = null;
                 client.sendMessage(roomId, {
@@ -56,11 +57,9 @@ client.on("room.message", (roomId, event) => {
 });
 
 
-function deploy() {
+function deploySite() {
     return new Promise(function(resolve, reject) {
-        const sequest = require('sequest')
-
-        const cmd = 'cd /apps/xfxpal-site/xfxpal-talent && /usr/bin/yarn build'
+        const cmd = 'cd /apps/xfxpal-site/xfxpal-talent && /usr/bin/git pull && /usr/bin/yarn build'
         var seq = sequest('xfxpal.com', cmd, function(e, output) {
             if (e) {
                 reject(e)
