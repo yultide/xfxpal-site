@@ -1,4 +1,4 @@
-const sequest = require('sequest')
+const { exec } = require('child_process')
 const MatrixClient = require("matrix-bot-sdk").MatrixClient;
 const AutojoinRoomsMixin = require("matrix-bot-sdk").AutojoinRoomsMixin;
 require('dotenv').config()
@@ -59,15 +59,12 @@ client.on("room.message", (roomId, event) => {
 
 function deploySite() {
     return new Promise(function(resolve, reject) {
-        const cmd = 'cd /apps/xfxpal-site/xfxpal-talent && /usr/bin/git pull && /usr/bin/yarn build'
-        var seq = sequest('root@xfxpal.com', cmd, function(e, output) {
-            if (e) {
-                reject(e)
-                seq.end()
-                return;
+        exec('sudo /apps/xfxpal-site/xfxpal-talent/scripts/deploy.sh', function(err, stdout, stderr) {
+            if (err) {
+                reject(stderr);
+            } else {
+                resolve(stdout);
             }
-            resolve(output)
-            seq.end();
-        })
+        });
     });
 }
