@@ -60,7 +60,7 @@ client.on("room.message", (roomId, event) => {
 function deploySite() {
     return new Promise(function(resolve, reject) {
         const cmd = 'cd /apps/xfxpal-site/xfxpal-talent && /usr/bin/git pull && /usr/bin/yarn build'
-        var seq = sequest('xfxpal.com', cmd, function(e, output) {
+        var seq = sequest('root@xfxpal.com', cmd, function(e, output) {
             if (e) {
                 reject(e)
                 seq.end()
