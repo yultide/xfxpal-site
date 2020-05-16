@@ -1,10 +1,11 @@
 const { exec } = require('child_process')
-const MatrixClient = require("matrix-bot-sdk").MatrixClient;
-const AutojoinRoomsMixin = require("matrix-bot-sdk").AutojoinRoomsMixin;
+const { MatrixClient, AutojoinRoomsMixin, SimpleFsStorageProvider, LogLevel, LogService } = require("matrix-bot-sdk");
 require('dotenv').config()
 
+LogService.setLevel(LogLevel.INFO);
+const storage = new SimpleFsStorageProvider("bot.json");
 const access_token = process.env.ACCESS_TOKEN
-const client = new MatrixClient("https://matrix.xfxpal.com", access_token);
+const client = new MatrixClient("https://matrix.xfxpal.com", access_token, storage);
 AutojoinRoomsMixin.setupOnClient(client);
 client.start().then(() => console.log("Client started!"));
 
