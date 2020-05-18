@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Header, Icon, Image, Card } from 'semantic-ui-react';
 
-import { peopleJson } from './peopleJson';
+import peopleJson from './people.json';
 import { peopleMap } from './peopleMap';
 
 import './App.css';
@@ -58,6 +58,7 @@ const IDCard = (
   if (locoption !== '') {
     locoption = locoption.replace('Open to Local Area', '');
     if (locoption !== '') {
+      locoption = locoption.replace(';', ', ');
       region += ' (' + locoption + ')';
     }
   }
@@ -67,7 +68,13 @@ const IDCard = (
   return (
     <Card fluid key={key}>
       <Card.Content textAlign='left'>
-        <Image rounded floated='right' size='small' src={process.env.PUBLIC_URL + 'images/' + imagefile} />
+        <Image
+          style={{ width: '150px', height: '150px' }}
+          rounded
+          floated='right'
+          size='small'
+          src={process.env.PUBLIC_URL + 'images/' + imagefile}
+        />
         <Card.Header>{name}</Card.Header>
         <Card.Meta>
           <div>
