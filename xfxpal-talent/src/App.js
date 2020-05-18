@@ -56,7 +56,10 @@ const IDCard = (
 ) => {
   let region = location;
   if (locoption !== '') {
-    region += ' (' + locoption + ')';
+    locoption = locoption.replace('Open to Local Area', '');
+    if (locoption !== '') {
+      region += ' (' + locoption + ')';
+    }
   }
   if (website !== '' && webname === '') {
     webname = 'Website';
