@@ -13,7 +13,6 @@ const style = {
 export default class Videos extends React.Component {
 
     componentDidMount() {
-        console.log('LightgalleryProvider', LightgalleryProvider)
     }
 
     render() {
