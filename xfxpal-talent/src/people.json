@@ -18,13 +18,13 @@
     "Photo": "https://drive.google.com/open?id=1iaccbsldV0S42KVJ51Ji0L31R-aj0eYM"
   },
   {
-    "Timestamp": "5/13/2020 13:22:55",
+    "Timestamp": "5/18/2020 15:24:26",
     "Name": "David Ayman Shamma",
     "Job Title": "Senior Research Scientist",
     "Job Function": "Research, Prototyping, Engineering",
     "Location": "San Francisco",
     "Location Options": "Open to Remote",
-    "Description": "At FXPAL, my research focused on the intersection of AI and human-computer interaction; I designed, developed, prototyped, tested, and patented many future-of-work systems including: AI for smart consumer cameras, enterprise devices, and IoT, gaze and presence in 360° video conferencing, VR environments for remote meetings.  This included architecting backend systems, as well as, working with designers for 3D device prototypes.  My prior 10 years experience was at Yahoo Labs where I was the Director of Research at Flickr and working on social computing.",
+    "Description": "I have over 20 years of experience connecting research to real-world business and products.  At FXPAL, my research focused on the intersection of AI and Human-Computer Interaction to build new product innovations.  I designed, researched, developed, prototyped, and patented future-of-work systems enabling VR environments for remote meetings, gaze and presence in 360° video conferencing, and AI for Internet of Things (IoT) smart consumer cameras and enterprise devices.  Previously, I was Director of Research at Flickr and Yahoo! Labs and led research combining social computing with machine learning algorithms to advance business metrics and research goals.",
     "LinkedIn": "https://www.linkedin.com/in/aymans/",
     "GitHub": "https://github.com/ayman/",
     "Twitter?": "https://twitter.com/ayman/",
@@ -54,7 +54,7 @@
     "Photo": "https://drive.google.com/open?id=1v15ZHvKDnyIElS5Cm0gauzDoF6GLWjyJ"
   },
   {
-    "Timestamp": "5/15/2020 10:02:39",
+    "Timestamp": "5/15/2020 16:20:54",
     "Name": "Yanxia Zhang",
     "Job Title": "Research Scientist",
     "Job Function": "Research, Engineering",
@@ -66,9 +66,9 @@
     "Twitter?": "",
     "Instagram": "",
     "Google Scholar": "https://scholar.google.com/citations?user=J7zwToQAAAAJ&hl=en",
-    "Resume": "https://www.dropbox.com/s/zz5n4pt71saoveb/Yanxia_Zhang_CV_AI.pdf?dl=0",
+    "Resume": "",
     "Other Website": "https://www.yanxiazhang.com",
-    "Pretty Name for Other Website": "Webpage",
+    "Pretty Name for Other Website": "Website",
     "Photo": ""
   },
   {
@@ -124,5 +124,23 @@
     "Other Website": "https://www.appblit.com",
     "Pretty Name for Other Website": "",
     "Photo": "https://drive.google.com/open?id=1mRRI4nl5R3ZhyHp7lp16gfY49IoPTm1b"
+  },
+  {
+    "Timestamp": "5/19/2020 15:37:47",
+    "Name": "Daniel Avrahami",
+    "Job Title": "Principal Research Scientist and Group Lead",
+    "Job Function": "HCI & UX research and practice",
+    "Location": "Bay Area",
+    "Location Options": "Open to Remote",
+    "Description": "An HCI and UX researcher, practitioner, and manager with experience in industry and industrial research.",
+    "LinkedIn": "http://www.linkedin.com/pub/daniel-avrahami/1/6bb/a45",
+    "GitHub": "",
+    "Twitter?": "http://twitter.com/CptPositive",
+    "Instagram": "https://www.instagram.com/cptpositive/",
+    "Google Scholar": "https://scholar.google.com/citations?user=TfBx_bYAAAAJ",
+    "Resume": "http://uxdaniel.me/DanielAvrahami_CV.pdf",
+    "Other Website": "http://uxdaniel.me/",
+    "Pretty Name for Other Website": "Homepage",
+    "Photo": "https://drive.google.com/open?id=1VpMPpzQuG2RsyeVRzSg6owxrVMqvGLUJ"
   }
 ]

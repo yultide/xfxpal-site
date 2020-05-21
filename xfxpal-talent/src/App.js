@@ -9,7 +9,7 @@ import Publications from './Publications'
 import Videos from './Videos'
 
 const SiteMenu = () => (
-  <Menu pointing secondary fixed>
+  <Menu pointing secondary>
     <Menu.Item to="/" as={NavLink} exact>TALENT</Menu.Item>
     <Menu.Item to="/publications" as={NavLink}>PUBLICATIONS</Menu.Item>
     <Menu.Item to="/videos" as={NavLink}>VIDEOS</Menu.Item>

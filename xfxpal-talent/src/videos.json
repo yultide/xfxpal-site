@@ -1,0 +1,710 @@
+[
+  {
+    "publishedAt": "2020-03-24T06:23:43Z",
+    "title": "Highlight Matome: Using highlights in your weekly report (Japanese)",
+    "description": "This quick tutorial will show how to use Highlight Matome when composing a weekly progress report.\n\n(You can visit Highlight Matome at https://matome.paldeploy.com)",
+    "videoId": "EaF_Qzn6yYA"
+  },
+  {
+    "publishedAt": "2020-03-24T06:20:25Z",
+    "title": "Highlight Matome: Awarding a silver star to a highlight (Japanese)",
+    "description": "This quick tutorial will show how to award a silver star to a highlight in Highlight Matome.  This feature is useful for filtering all 'starred' highlights in your 'My Reports' page.\n\n(You can visit Highlight Matome at https://matome.paldeploy.com)",
+    "videoId": "BjYwo_6OXBc"
+  },
+  {
+    "publishedAt": "2020-03-24T06:07:55Z",
+    "title": "Highlight Matome: Giving the gold star to an existing highlight",
+    "description": "This quick tutorial will show how to assign the gold star to an existing highlight in Highlight Matome.\nThis is particularly useful if you change your mind about which weekly highlight is bigger.\n\n(You can visit Highlight Matome at https://matome.paldeploy.com)",
+    "videoId": "ROXwbhOjxqs"
+  },
+  {
+    "publishedAt": "2020-03-24T06:01:57Z",
+    "title": "Highlight Matome: Marking a day as Out-of-Office (Japanese)",
+    "description": "This quick tutorial will show how to mark a day as Out-of-Office in Highlight Matome.\n\n(You can visit Highlight Matome at https://matome.paldeploy.com)",
+    "videoId": "9fxxTGJNUJc"
+  },
+  {
+    "publishedAt": "2020-03-24T05:55:02Z",
+    "title": "Highlight Matome: Adding a highlight (Japanese)",
+    "description": "This quick tutorial will show how to add a daily work highlight in Highlight Matome.\n\n(You can visit Highlight Matome at https://matome.paldeploy.com)",
+    "videoId": "pEEni1cZIgQ"
+  },
+  {
+    "publishedAt": "2019-10-01T16:58:55Z",
+    "title": "Rich Media Organizer (2003)",
+    "description": "FXPAL’s Photo Application, also known as the Rich Media Organizer (RMO), is a tool for managing personal photo collections incorporating advanced capabilities.",
+    "videoId": "e8EeBofF0YE"
+  },
+  {
+    "publishedAt": "2019-09-24T18:46:11Z",
+    "title": "Embedded Media Markers (Better Quality)",
+    "description": "Embedded Media Markers, or simply EMMs, are nearly transparent iconic marks printed on paper documents that signify the existence of media associated with that part of the document.",
+    "videoId": "K3Kf7EvIneY"
+  },
+  {
+    "publishedAt": "2019-09-24T17:29:11Z",
+    "title": "2011Virtual Factory (better Quality)",
+    "description": "The Virtual Factory project investigates applications of mixed-reality, mobile, and virtual worlds in industrial settings. In collaboration with TCHO, a chocolate maker start-up in San Francisco, we created virtual \"mirror world\" representations of a real-world chocolate factory, and then imported real-time sensor data from the real factory floor into the resulting virtual factory. This 3D environment is designed for simulation, visualization, and collaboration, using a set of interlinked, real-time 3D, 2D and mobile layers of information about the TCHO chocolate factory and its processes.",
+    "videoId": "zj0y5aKRzvo"
+  },
+  {
+    "publishedAt": "2019-07-31T18:14:53Z",
+    "title": "FX Patient Flow Video",
+    "description": "",
+    "videoId": "_ozOalGa7lg"
+  },
+  {
+    "publishedAt": "2019-05-15T20:55:40Z",
+    "title": "Youth Community Service 05 14 19",
+    "description": "Meeting at FXPAL",
+    "videoId": "msOceMDpwus"
+  },
+  {
+    "publishedAt": "2018-09-13T17:30:18Z",
+    "title": "Tabletop Telepresence: Research + Design (Japanese, 2018)",
+    "description": "English Version:\nhttps://www.youtube.com/watch?v=-qqAedd2hfY\n\n新しい技術は科学技術の進歩、既存技術の組み合わせ、または将来何が起こりうるのかシンプルに想像することによってもたらされます。\nこの動画では、ビデオ会議システムをインタラクティブな机として実現した、遠隔コラボレーションのためのシステム、Tabletop Telepresence (テーブルトップテレプレゼンス) の進化について説明します。\nTabletop Telepresence は、カメラ、プロジェクター、ビデオ会議技術、インタラクション技術の集まりとして始まりました。\nアーティストと研究者との協業が、単なる技術の集まりを遠隔デスクトップ間での紙文書の共有手段に変え、ドキュメントを介したインタラクション手段に変え、翻訳など必要とされるサービスに変え、そしてビデオ会議を通した新しいコミュニケーション手段へと変えていったのです。",
+    "videoId": "JAHql70qUIs"
+  },
+  {
+    "publishedAt": "2018-09-12T21:46:38Z",
+    "title": "Tabletop Telepresence: Research + Design (English, 2018)",
+    "description": "Japanese Version:\nhttps://www.youtube.com/watch?v=JAHql70qUIs&t=30s\n\nNew technologies may come from advances in scientific research, combinations of existing technologies, or by simply imagining what might be possible in the future. This video describes the evolution of Tabletop Telepresence, a system for remote collaboration through desktop videoconferencing combined with a digital desk. Tabletop Telepresence began as a collection of camera, projector, videoconferencing and user interaction technologies. Working together; artists and research scientists combined these technologies into a means of sharing paper documents between remote desktops, interacting with those documents, requesting services (such as translation), and communicating through a videoconference.",
+    "videoId": "-qqAedd2hfY"
+  },
+  {
+    "publishedAt": "2018-05-11T19:02:42Z",
+    "title": "Fusing Map Information with a Probabilistic Sensor Model for Indoor Localization using RF Beacons",
+    "description": "Accurate localization is a fundamental requirement for a variety of applications, ranging from industrial robot operations to location-powered applications on mobile devices. A key technical challenge in achieving this goal is providing a clean and reliable estimation of location from a variety of low-cost, uncalibrated sesnors. Many current techniques rely on Particle Filter (PF) based algorithms. They have proven successful at effectively fusing various sensors inputs to create meaningful location predictions. In this paper we build upon this large corpous of work. Like prior work, our technique fuses Received Signal Strength Indicator (RSSI) measurements from Bluetooth Low Energy (BLE) beacons with map information. A key contribution of our work is a new sensor model for BLE beacons that does not require the mapping from RSSI to distance. We further contribute a novel method of utilizing map information during the initialization of the system and during the resampling phase when new particles are generated. Using our proposed sensor model and map prior information the performance of the overall localization is improved by 1.20 m on comparing the 75th percentile of the cumulative distribution with traditional localization techniques.",
+    "videoId": "3BK3ERiHB-M"
+  },
+  {
+    "publishedAt": "2018-04-06T17:54:30Z",
+    "title": "ReflectLive: (English)",
+    "description": "Japanese language version: https://youtu.be/1XcCka4LgzM\n\nAffective Video Conference With Real-Time Audio and Video Analysis and Feedback\n\nPeople often do not communicate well in video meetings, often exhibiting problematic non-verbal behaviors such as looking away, interrupting others, and speaking too quickly. Successful communication depends not only on what you say but also how you say it.  Speakers can benefit from real-time feedback about their own non-verbal behaviors so they can communicate more effectively and professionally. We introduce ReflectLive, a WebRTC-based teleconference system that senses and provides real-time feedback about non-verbal communication behaviors to users so they can improve their communication behaviors. ReflectLive analyzes the audio and video stream of video meetings in real-time to measure non-verbal behaviors such as speaking contribution, interruptions, speaking rate, eye gaze, and face position. These metrics are visualized in real-time on a dashboard that updates during a video meeting so the speaker can self-regulate their behaviors. ReflectLive can improve communication in a variety of scenarios including video telehealth, remote education, business meetings, sales calls, and video-based customer support.",
+    "videoId": "bnoDSrBBInE"
+  },
+  {
+    "publishedAt": "2018-02-26T17:59:12Z",
+    "title": "LoCo: An Indoor Localization Framework to Estimate Position of Smart Device Users",
+    "description": "The onset of new generation of smart ubiquitous devices has enabled the development of various indoor positioning system which utilizes the sensors available in these devices. Fuji Xerox is conducting research on indoor location system which can be leveraged developing applications targeted towards better and smarter workplaces. In this project, we propose a indoor localization system that utilizes noisy radio signal strength measurements denoted by Received Signal Strength Indicator (RSSI) to estimate the location of the user in indoor environment or locations where Global Positioning System (GPS) is weak. As demonstrated in the video, our system is optimized to perform in real-time on a smart devices such as iPhone and android devices.",
+    "videoId": "myXToYEx7vE"
+  },
+  {
+    "publishedAt": "2017-12-04T22:38:53Z",
+    "title": "Indoor Localization Using Bluetooth Low Energy (BLE) Beacons",
+    "description": "We present an Indoor localization solution using Bluetooth Low Energy (BLE) Beacons deployed in a given environment. Our proposed approach estimates location of the user in realtime and eliminates the tedious process of fingerprinting the environment to generate a radio map of different beacons. Further, our technique deals with inherent noise generated through reflection and multipathing of the BLE signals.",
+    "videoId": "bjbSwUveuXs"
+  },
+  {
+    "publishedAt": "2017-11-09T18:59:40Z",
+    "title": "Injong Rhee - Building Multi-Modal Interfaces for Smartphones (ACM-MM 2017 Keynote)",
+    "description": "Smartphones are the central component of our modern, connected life. We carry them from the moment we wake up till the time we go to bed. Continuous technology innovation has created ever more sophisticated phones. Their small size belies a complexity that is largely unknown to the user – making it almost impossible to discover and use these expanded capabilities. Designers are forced to make tradeoffs between adding more capabilities and burying the functionality in menu hierarchies. Users are frustrated when forced to accept either of these choices. This is the fundamental limitation of modern touch based interfaces to smartphones.\n\nOn the path to solving this problem, it is natural to ask “How can we make it easier for users to learn and use the new features”. We believe this is the wrong question to ask and took a fundamentally different approach.",
+    "videoId": "Bn2uNGIsJN0"
+  },
+  {
+    "publishedAt": "2017-11-07T16:13:37Z",
+    "title": "Danny Lange - Bringing Gaming, VR, and AR to Life with Deep Learning (ACM-MM 2017 Keynote)",
+    "description": "Game development is a complex and labor-intensive effort. Game environments, storylines, and character behaviors are carefully crafted requiring graphics artists, storytellers, and software to work in unison. Often games end up with a delicate mix of hard-wired behavior in the form of traditional code and somewhat more responsive behavior in the form of large collections of rules. Over the last few years, data intensive Machine Learning solutions have obliterated rule-based systems in the enterprise - think Amazon, Netflix, and Uber. At Unity we have explored the use of Deep Learning in content creation and Deep Reinforcement Learning in character development. We will share our learnings and the Unity APIs we use with the audience and hopefully inspire content developers to start using these new technologies to create digital experiences that are out of this world.",
+    "videoId": "VtqS9sp72ZQ"
+  },
+  {
+    "publishedAt": "2017-11-07T14:54:07Z",
+    "title": "Bill Dally - Efficient Methods and Hardware for Deep Learning (ACMMM 2017 Keynote)",
+    "description": "The current resurgence of artificial intelligence is due to advances in deep learning. Systems based on deep learning now exceed human capability in speech recognition, object classification, and playing games like Go. Deep learning has been enabled by powerful, efficient computing hardware. The algorithms used have been around since the 1980s, but it has only been in the last few years - when powerful GPUs became available to train networks - that the technology has become practical. This talk will review the current state of deep learning and describe recent research on making these systems more efficient.\n\nPresented in San Jose, California at the ACM Multimedia 2017 Conference",
+    "videoId": "uEYI7vG8br8"
+  },
+  {
+    "publishedAt": "2017-11-07T14:54:07Z",
+    "title": "Edward Y. Chang - DeepQ: Advancing Healthcare Through AI and VR (ACMMM 2017 Keynote)",
+    "description": "Quality, cost, and accessibility form an iron triangle that has prevented healthcare from achieving accelerated advancement in the last few decades. Improving any one of the three metrics may lead to degradation of the other two.  However, thanks to recent breakthroughs in artificial intelligence (AI) and virtual reality (VR), this iron triangle can finally be shattered. In this talk, I will share the experience of developing DeepQ, an AI platform for AI-assisted diagnosis and VR-facilitated surgery. I will present three healthcare initiatives we have undertaken since 2012: Healthbox, Tricorder, and VR surgery, and explain how AI and VR play pivotal roles in improving diagnosis accuracy and treatment effectiveness.  And more specifically, how we have dealt with not only big data analytics, but also small data learning, which is typical in the medical domain. The talk concludes with roadmaps and a list of open research issues in multimodal signal processing, fusion, and mining to achieve precision medicine and surgery.\n\nPresented in San Jose, California at the ACM Multimedia 2017 Conference",
+    "videoId": "qgtdMNJSc1U"
+  },
+  {
+    "publishedAt": "2017-11-07T14:54:07Z",
+    "title": "Arnold W. M. Smeulders SIGMM Technical Achievement Award Lecture ACM-MM 2017",
+    "description": "Multimedia Understanding - A Keyhole Lecture. Arnold W.M. Smeulders, University of Amsterdam, SIGMM Technical Achievement Award for lasting contributions to multimedia computing, communications and applications.",
+    "videoId": "n8kLxKNjQ0A"
+  },
+  {
+    "publishedAt": "2017-09-21T17:34:48Z",
+    "title": "No app needed: Enabling mobile phone communication with a tourist kiosk using cameras and screens",
+    "description": "ItineraryScanner scans information from paper flyers or phone screens to help tourists create travel itineraries with public kiosks.",
+    "videoId": "KmZyDbGJcCU"
+  },
+  {
+    "publishedAt": "2017-09-20T22:16:27Z",
+    "title": "ContextualNet: Exploiting Contextual Information using LSTMs to Improve Image-based Localization",
+    "description": "Convolutional Neural Networks (CNN) have suc-cessfully been utilized for localization using a single monocular image [1]. Most of the work to date has either focused on reducing the dimensionality of data for better learning of pa-rameters during training or on developing different variations of CNN models to improve pose estimation. Many of the best performing works solely consider the content in a single image, while the context from historical images is ignored. In this paper, we propose a combined CNN-LSTM which is capable of incorporating contextual information from historical images to better estimate the current pose. Experimental results achieved using dataset collected in an indoor ofﬁce space improved the overall system results to 0.8 m & 2.5° at the third quartile of the cumulative distribution as compared to 1.5 m & 3.0° given by PoseNet [1]. Furthermore, we demonstrate how the temporal information exploited by the CNN-LSTM model assists in localizing the robot in situations where image content does not have sufﬁcient features.",
+    "videoId": "D0e0_3yD8JA"
+  },
+  {
+    "publishedAt": "2017-08-24T15:18:56Z",
+    "title": "Space Debris - Propagation, Prediction and Removal",
+    "description": "Presented by Xiaoli Bai, Phd, Assistant Professor, Mechanical and Aerospace Engineering, Rutgers, The State University of New York. FXPAL Visiting Lectures, 08-07-17\n\nAbstract: Since the launch of the first satellite (Sputnik 1) in 1957, humans have created a lot of objects in orbit around Earth. The number of space objects larger than 10 cm is presently approaching 21,000, the estimated population of objects between 1 and 10cm is about 500,000, and for objects smaller than 1cm the number exceeds 100 million. With the rush of global satellite communication companies into space, the technical advances of miniaturized satellites, and new concepts of satellites such as autonomous nanosatellite swarms, both the number of space objects and the number of conflicts between these objects are increasing exponentially. Our ability to generate accurate and timely predictions of the trajectory of a space object is the cornerstone of many current and future Space Situation Awareness (SSA) systems. In this talk, we will first discuss the space sustainability challenge raised by space debris. We will then use the 2009 collision of a U.S. Iridium communications satellite and a Russian Cosmos 2251 communications satellite as an example to illustrate the limitations of the existing methods for orbit propagation and prediction. Last, we will discuss a few proposed approaches for space debris removal.",
+    "videoId": "QKOYamYc_TE"
+  },
+  {
+    "publishedAt": "2017-07-24T18:44:52Z",
+    "title": "Future of Work: Intelligent Workplaces and Elastic Workstyles",
+    "description": "A brief overview of FXPAL's research into intelligent workplaces and elastic workstyles.",
+    "videoId": "MC32oBTBNWs"
+  },
+  {
+    "publishedAt": "2017-05-24T21:10:10Z",
+    "title": "Indoor Localization using Bluetooth Low Energy (BLE) Beacons",
+    "description": "We present an Indoor localization solution using Bluetooth Low Energy (BLE) Beacons deployed in a given environment. \nOur proposed approach estimates location of the user in realtime and eliminates the tedious process of fingerprinting the \nenvironment to generate a radio map of different beacons. Further, our technique deals with inherent noise generated through \nreflection and multipathing of the BLE signals.",
+    "videoId": "Cgql9ntJ0SE"
+  },
+  {
+    "publishedAt": "2017-05-23T18:58:03Z",
+    "title": "Virtual Physics Circus",
+    "description": "A sensing UI interface for learning the relationships between virutal objects based on Physics principles.",
+    "videoId": "_VHITqU37aM"
+  },
+  {
+    "publishedAt": "2017-03-29T22:13:39Z",
+    "title": "Introducing LocoVisit (Short Version, Japanese)",
+    "description": "This video introduces LoCo Visit, a smartphone application that uses FXPAL’s LoCo framework to help hosts and their guests coordinate meetings. LoCo is a highly accurate, room-level location framework. LoCo leverages Bluetooth Low Energy (BLE) radio signals, inexpensive room beacons and new classification techniques to achieve high room-level accuracy. LoCo enables many new services, especially those that support collaboration.",
+    "videoId": "QehkG8UOkNI"
+  },
+  {
+    "publishedAt": "2017-03-29T22:08:52Z",
+    "title": "Introducing LocoVisit (Short Version, English)",
+    "description": "This video introduces LoCo Visit, a smartphone application that uses FXPAL’s LoCo framework to help hosts and their guests coordinate meetings. LoCo is a highly accurate, room-level location framework. LoCo leverages Bluetooth Low Energy (BLE) radio signals, inexpensive room beacons and new classification techniques to achieve high room-level accuracy. LoCo enables many new services, especially those that support collaboration.",
+    "videoId": "MFwcuSp5PgM"
+  },
+  {
+    "publishedAt": "2017-03-29T21:51:25Z",
+    "title": "Introducing LocoVisit (Japanese)",
+    "description": "This video introduces LoCo Visit, a smartphone application that uses FXPAL’s LoCo framework to help hosts and their guests coordinate meetings. LoCo is a highly accurate, room-level location framework. LoCo leverages Bluetooth Low Energy (BLE) radio signals, inexpensive room beacons and new classification techniques to achieve high room-level accuracy. LoCo enables many new services, especially those that support collaboration.",
+    "videoId": "QpOI7XQKVHE"
+  },
+  {
+    "publishedAt": "2017-03-29T21:32:24Z",
+    "title": "Introducing LocoVisit (English)",
+    "description": "This video introduces LoCo Visit, a smartphone application that uses FXPAL’s LoCo framework to help hosts and their guests coordinate meetings. LoCo is a highly accurate, room-level location framework. LoCo leverages Bluetooth Low Energy (BLE) radio signals, inexpensive room beacons and new classification techniques to achieve high room-level accuracy. LoCo enables many new services, especially those that support collaboration.",
+    "videoId": "fW8wZAMW4cs"
+  },
+  {
+    "publishedAt": "2017-01-27T01:09:08Z",
+    "title": "Collaboration Map v2.0 (CoMap)",
+    "description": "Collaboration Map is an interactive visualization of the temporal dynamics of people and venues or topics.",
+    "videoId": "zOGCsyQ36M8"
+  },
+  {
+    "publishedAt": "2016-08-31T23:27:58Z",
+    "title": "FXPAL Technologies Excerpt: Jarvis, Embodied Desktop Telepresence",
+    "description": "The Jarvis project is part of an emerging class of technologies that seek to mitigate the social disadvantages of video-based communication by providing remote collaborators with a local embodiment.  These devices have been shown to provide distributed teams with an increased sense of their remote colleagues’ presence in the local environment and a reciprocal sense of “being there” for that remote worker.  FXPAL is building and studying telepresence technologies, like Jarvis, to better understand the future office communication landscape.",
+    "videoId": "2cUf2nw5960"
+  },
+  {
+    "publishedAt": "2016-08-31T22:29:04Z",
+    "title": "LoCo: A Ready-to-Deploy Framework for Efficient Room Localization using Wi-Fi",
+    "description": "In recent years, there has been an explosion of social and collaborative applications that leverage location to provide users novel and engaging experiences. Current location technologies work well outdoors but fare poorly indoors. In this paper we present LoCo, a new framework that can provide highly accurate room-level location using a supervised classification scheme. We provide experiments that show this technique is orders of magnitude more efficient than current state-of-the-art Wi- Fi localization techniques. Low classification overhead and computational footprint make classification practical and efficient even on mobile devices. Our framework has also been designed to be easily deployed and lever- aged by developers to help create a new wave of location- driven applications and services.",
+    "videoId": "vgyEeb0gRvM"
+  },
+  {
+    "publishedAt": "2016-08-25T18:44:33Z",
+    "title": "Look Where You're Going: Visual Interfaces for Robot Teleoperation",
+    "description": "Two related challenges with current teleoperated robotic systems are lack of peripheral vision and awareness, and difficulty or tedium of navigating through remote spaces. We address these challenges by providing an interface with a focus plus context (F+C) view of the robot location, and where the user can navigate simply by looking where they want to go, and clicking or drawing a path on the view to indicate the desired trajectory or destination. The F+C view provides an undistorted, perspectively correct central region surrounded by a wide field of view peripheral portion, and avoids the need for separate views. The navigation method is direct and intuitive in comparison to keyboard or joystick based navigation, which require the user to be in a control loop as the robot moves. Both the F+C views and the direct click navigation were evaluated in a preliminary user study.",
+    "videoId": "wtSwwAb4WcM"
+  },
+  {
+    "publishedAt": "2016-07-06T16:24:52Z",
+    "title": "Docugram: Turning Screen Recordings into Documents",
+    "description": "In this paper we describe DocuGram, a novel tool to capture and share documents originating from any application. As users scroll through pages of their document inside the native application (Word, Google Docs, web browser), the system captures and analyses in real-time the rendered video frames and reconstitutes the original document pages into an easy to view HTML-based representation. In addition to detecting and regenerating the document pages, a DocuGram also includes the interactions users had over them, e.g. mouse motions and voice comments. A DocuGram allows users to flexibly share enhanced documents across applications.",
+    "videoId": "phS0TrwZ4Tg"
+  },
+  {
+    "publishedAt": "2016-07-12T23:53:27Z",
+    "title": "WorkCache: Salvaging siloed knowledge",
+    "description": "The proliferation of workplace multimedia collaboration applications has meant on one hand more opportunities for group work but on the other more data locked away in proprietary interfaces. We are developing new tools to capture and access multimedia content from any source. In this demo, we focus primarily on new methods that allow users to rapidly reconstitute, enhance, and share document-based information.",
+    "videoId": "MTMpHwXj4dY"
+  },
+  {
+    "publishedAt": "2016-05-04T23:29:38Z",
+    "title": "MeetingMate",
+    "description": "MeetingMate is a mobile phone application that augments an ongoing teleconference. MeetingMate is designed to be used with the MixMeet WebRTC-based web teleconferencing system. With MeetingMate, collocated users can quickly connect to a local host of a meeting-in-progress by either scanning a barcode on the host’s MixMeet instance or by selecting a host from a list. MeetingMate provides access to meeting content without initiating any new video or audio streams. It allows mobile and remote participants to contribute more easily and more richly to a hub-and-spoke meeting.",
+    "videoId": "Q0f0O6qkvUY"
+  },
+  {
+    "publishedAt": "2016-04-09T19:04:16Z",
+    "title": "Sharing Documents With Tabletop Telepresence",
+    "description": "Videoconferencing technologies enable people separated by vast distances to communicate more naturally. Tabletop Telepresence adds the ability to easily share paper documents and other physical objects.",
+    "videoId": "36F5pSVp1t4"
+  },
+  {
+    "publishedAt": "2016-04-07T19:31:44Z",
+    "title": "Table Top Telepresence Document and Video Sharing (Prototype)",
+    "description": "This video shows “Remote TTT”, a projector-camera system that supports document sharing and video conferencing.  It can perform high-resolution image capture, OCR, and language translation.  Interaction on the tabletop surface is enabled by gesture-based widgets.",
+    "videoId": "JM7GfvHpZLM"
+  },
+  {
+    "publishedAt": "2016-02-19T19:57:07Z",
+    "title": "Seamless Document Sharing and Translation (2012)",
+    "description": "This short video illustrates a video conference system that incorporates document services.",
+    "videoId": "uMBpv7sJ1ks"
+  },
+  {
+    "publishedAt": "2016-02-15T23:59:07Z",
+    "title": "#ifihadglass",
+    "description": "A winning video submission for Google's #IfIHadGlass Campaign.",
+    "videoId": "gr08fqbDANY"
+  },
+  {
+    "publishedAt": "2016-02-15T23:48:43Z",
+    "title": "SkyDesk Business Collaboration Services",
+    "description": "SkyDesk is a public cloud service that provides diverse business applications centered on business activity support. It comes equipped with applications necessary for business use, providing external and internal data sharing on top of business card management and customer information management. One-stop and equipped with diverse functions, SkyDesk provides peace of mind in data sharing with its clear sharing scope. SkyDesk provides a reliable environment for your business purposes.",
+    "videoId": "c0A2Ad4ep-s"
+  },
+  {
+    "publishedAt": "2015-12-04T22:37:41Z",
+    "title": "Mining Social Media Using Textual and Multimedia Information",
+    "description": "Businesses at specific locations are profiled by mining information from social multimedia and presented in an interactive interface.  This video details our approach. The mining methods are further described in the paper “Social Media-based Profiling of Business Locations” (ACM Multimedia GeoMM Workshop 2014)",
+    "videoId": "ncok_f466x4"
+  },
+  {
+    "publishedAt": "2016-05-03T00:24:24Z",
+    "title": "MixMeetWear",
+    "description": "MixMeetWear is a smartwatch application that allows users to maintain awareness of the audio and visual content of a meeting while completing other tasks. Users of the system can listen to the audio of a meeting and also view, zoom, and pan webcam and shared content keyframes of other meeting participants’ live streams in real time. Users can also provide input to the meeting via speech-to-text or predefined responses.",
+    "videoId": "EZap3se-25w"
+  },
+  {
+    "publishedAt": "2015-07-16T20:50:45Z",
+    "title": "Evolution of a Tabletop Telepresence System through Art and Technology",
+    "description": "New technologies arise in a number of ways. They may come from advances in scientific research, through new combinations of existing technologies, or by simply imagining what might be possible in the future. This video describes the evolution of Tabletop Telepresence, a system for remote collaboration through desktop videoconferencing combined with a digital desk. Tabletop Telepresence began as a collection of camera, projector, videoconferencing and user interaction technologies. Working together; artists and research scientists combined these technologies into a means of sharing paper documents between remote desktops, interacting with those documents, requesting services (such as translation), and communicating through a videoconference.",
+    "videoId": "km5Md0E3S1U"
+  },
+  {
+    "publishedAt": "2015-06-04T00:17:07Z",
+    "title": "Creativity: Research + Art",
+    "description": "For 20 years, FXPAL has imagined and built new technologies.",
+    "videoId": "TFJP_2KLeUo"
+  },
+  {
+    "publishedAt": "2015-05-20T15:26:48Z",
+    "title": "FXPAL: 20 Years",
+    "description": "FXPAL is a leading multimedia research lab established by Fuji Xerox in 1995. We inherited the innovative culture and far-sighted technological background of our parent company. We honor that tradition by fostering an open and collaborative environment of intellectual exchange.",
+    "videoId": "GAj_xz50VaY"
+  },
+  {
+    "publishedAt": "2015-02-25T18:58:49Z",
+    "title": "Tabletop Telepresence",
+    "description": "An exploration of the impact advanced document sharing and videoconferencing technologies might have on workplace interactions.\n\nExterior image by Stefan Krause.",
+    "videoId": "ghqgYRUxFrs"
+  },
+  {
+    "publishedAt": "2015-01-15T16:38:02Z",
+    "title": "Jarvis: Embodied Desktop Telepresence",
+    "description": "The Jarvis project is part of an emerging class of technologies that seek to mitigate the social disadvantages of video-based communication by providing remote collaborators with a local embodiment.",
+    "videoId": "lalMR6FCvj0"
+  },
+  {
+    "publishedAt": "2014-11-15T02:06:12Z",
+    "title": "MixMeet",
+    "description": "mixMeet is a web-based collaboration tool designed to support content interaction and extraction for use in both live, synchronous meetings as well as asynchronous group work. mixMeet is a pure web system that uses the WebRTC framework to create video connections. It supports live keyframe archiving and navigation, content-based markup, and the ability to copy-and-paste content to personal or shared notes. A backend server can be configured to archive keyframes as well as record each user's stream.",
+    "videoId": "ELRiWkOY6oc"
+  },
+  {
+    "publishedAt": "2014-10-31T16:13:22Z",
+    "title": "Tabletop Telepresence",
+    "description": "A system that can detect paper documents on a cluttered desktop and provide services related to document analysis.",
+    "videoId": "_J546KcgcqM"
+  },
+  {
+    "publishedAt": "2014-10-14T18:04:36Z",
+    "title": "Video Text Retouch: Retouching text in videos with direct manipulation",
+    "description": "Video Text Retouch is a technique for retouching textual content found in many online videos such as screencasts, recorded presentations and many online e-learning videos. Viewed through our special, HTML5-based player, users can edit in real-time the textual content of the video frames, such as correcting typos or inserting new words between existing characters. This work was presented at UIST 2014.",
+    "videoId": "6JDnWcrD5lo"
+  },
+  {
+    "publishedAt": "2014-09-03T21:11:10Z",
+    "title": "Gesture Viewport: Interacting with Media Content Using Finger Gestures on Any Surface",
+    "description": "This video shows Gesture Viewport, a projector-camera system that enables finger gesture interactions with media content on any surface. We propose a novel and computationally efficient finger localization method based on the detection of occlusion patterns inside a virtual sensor grid rendered in a layer on top of a viewport widget. We develop several robust interaction techniques to prevent unintentional gestures from occurring, to provide visual feedback to a user, and to minimize the interference of the sensor grid with the media content. We show the effectiveness of the system through three scenarios: viewing photos, navigating Google Maps, and controlling Google Street View. This work received the Best Demo Award at ICME 2014.",
+    "videoId": "nEjEjYSLWtU"
+  },
+  {
+    "publishedAt": "2014-08-22T22:55:12Z",
+    "title": "Polly: Telepresence from a Guide’s Shoulder",
+    "description": "Polly is an inexpensive, portable telepresence device based on the metaphor of a parrot riding a guide’s shoulder and acting as proxy for remote participants. Although remote users may be anyone with a desire for ‘tele-visits’, we focus on limited mobility users.",
+    "videoId": "0J1MA_5Sm3I"
+  },
+  {
+    "publishedAt": "2014-05-10T20:45:02Z",
+    "title": "Visiting Stanford with Henry and Jane Evans and POLLY",
+    "description": "Depicting a test run of the \"Polly\" telepresence system. Polly is comprised of an android phone attached to a remote control gimbal apparatus. It allows remotely situated participants to \"accompany\" the wearer as a proxied individual - an embodied person with some autonomous control over the guest experience.",
+    "videoId": "jnpGKvSGt4E"
+  },
+  {
+    "publishedAt": "2014-04-23T01:11:27Z",
+    "title": "Polly at the Hiller Aviation Museum",
+    "description": "Test #1: Polly visits the Hiller Aviation Museum, February 24, 2014",
+    "videoId": "x5Twm6XaThw"
+  },
+  {
+    "publishedAt": "2014-04-02T17:17:59Z",
+    "title": "Dynomite 1997",
+    "description": "Dynomite is a portable electronic notebook for the capture and retrieval of handwritten and audio notes.",
+    "videoId": "6BIc0Ozlvbo"
+  },
+  {
+    "publishedAt": "2014-02-11T23:05:16Z",
+    "title": "AirAuth: Towards Attack-Resilient Biometric Authentication Using In-Air Gestures",
+    "description": "(NO AUDIO) AirAuth is a biometric, gesture-based authentication system based on in-air gestures input. After a simple enrollment phase where users enter their personal in-air gesture, AirAuth is able to reliably authenticate users based on their personal gestures, eliminating the need for users to remember PINs or passwords and making the process authentication more fun and engaging. AirAuth is simple, robust and requires a low amounts of computational power and is hence implementable using embedded or mobile hardware.",
+    "videoId": "LnrHtI_hwkA"
+  },
+  {
+    "publishedAt": "2014-01-10T18:33:37Z",
+    "title": "XLibris: The Active Reading Machine (Tech Demo 1998)",
+    "description": "The \"XLibris Active Reading Machine\" uses a high-resolution pen tablet display along with a paper-like user interface to emulate the physical experience of reading a document on paper: the reader can hold a scanned image of a page in his lap and mark on it with digital ink. Moreover, XLibris monitors free-form ink annotations made while reading, and uses these to organize and search for related information. (Technology Demo)",
+    "videoId": "8OMcD6WPpkQ"
+  },
+  {
+    "publishedAt": "2014-01-10T18:25:54Z",
+    "title": "Unity: a communications software platform for the modern workplace",
+    "description": "myUnity is motivated by a simple, but very powerful observation: our work, and related work practices,  are becoming increasingly distributed across both time and place. For many businesses, the disparate nature of work is so profound that \"9-to-5\" has lost its meaning. While, at the same time, it is not unusual for us to have colleagues, even close colleagues that we work with on a daily basis, to be people we have never met face-to-face.",
+    "videoId": "Cxjka1XU3fk"
+  },
+  {
+    "publishedAt": "2014-01-10T18:26:46Z",
+    "title": "The Virtual Factory - 2009",
+    "description": "A demo of recent FXPAL research in Virtual and Augmented Reality applied in the TCHO Chocolate factory (http://www.tcho.com) NO SOUND",
+    "videoId": "8iMFe5I15so"
+  },
+  {
+    "publishedAt": "2014-01-10T18:27:17Z",
+    "title": "The FLYSPEC Camera - 2001",
+    "description": "A real time bi-pack system that allows users to control a pan-tilt-zoom (PTZ) camera by means of drawing areas on interest on the a live video stream provided by a fixed mount multi-lens panoramic camera.",
+    "videoId": "i6Z4PhAQlCk"
+  },
+  {
+    "publishedAt": "2014-01-10T18:28:51Z",
+    "title": "The Active Reading Application",
+    "description": "The Active Reading App brings the familiar experience of writing on paper to the Android tablet. The app augments paper-based practices with audio, the ability to review annotations, and sharing. It is designed make it easier to review, annotate, and comment on documents by individuals and groups. The Active Reading App incorporates several patented technologies and draws on several years of research and experimentation.",
+    "videoId": "HWAu_J9UeK4"
+  },
+  {
+    "publishedAt": "2014-01-10T18:26:02Z",
+    "title": "Talkminer",
+    "description": "TalkMiner aggregates and indexes lecture videos available across the internet. http://www.talkminer.com",
+    "videoId": "7N6I_m9LywM"
+  },
+  {
+    "publishedAt": "2014-01-10T18:26:47Z",
+    "title": "Tahoe FlyOver 2013",
+    "description": "Experiments with 3D visual control of RC copter",
+    "videoId": "6oK_53Gy2cA"
+  },
+  {
+    "publishedAt": "2014-01-10T18:25:34Z",
+    "title": "Stained Glass Collage",
+    "description": "http://www.stainedglasscollage.com This is a web application that generates photo collages that look like Stained Glass from your photo collections. It's free.",
+    "videoId": "uJ1VTcnLcYk"
+  },
+  {
+    "publishedAt": "2014-01-10T18:11:28Z",
+    "title": "Smart Phones as part of the Extended Desk - Scenario 1",
+    "description": "One of a series of videos exploring simple interactions between users with mobile computing devices and environments with various embedded technologies. This video depicts a user accessing a floor-plan and than viewing their position as well as the availability and location of their peers on that map.",
+    "videoId": "D2utPaWDSrg"
+  },
+  {
+    "publishedAt": "2014-01-10T18:11:22Z",
+    "title": "SmartDcap: Semi-Automatic Capture of Higher Quality Document Images from a Smartphone",
+    "description": "SmartDCap helps smart-phone users to capture higher quality images of documents by semi-automatically taking a photo when a document image is well-framed and relatively sharp. This video illustrates the capture of several types of document regions. The system is described in the paper \"SmartDCap: Semi-Automatic Capture of Higher Quality Document Images from a Smartphone\" (ACM Intelligent User Interfaces 2013).",
+    "videoId": "IXoYDQ-dDLQ"
+  },
+  {
+    "publishedAt": "2014-01-10T18:11:24Z",
+    "title": "Shared Interactive Video for Teleconferencing (1998)",
+    "description": "A system that allows remote and local meeting participants to control devices in a meeting environment using mouse or pen-based gestures on live video streams, within a single interface.",
+    "videoId": "8-NLFCjlFgA"
+  },
+  {
+    "publishedAt": "2014-01-10T18:11:23Z",
+    "title": "SG Collage ステンド・グラス・コラージュ(日本語版)",
+    "description": "印刷のために写真をステンド・グラス・コラージュに並べて配置する技術の紹介です。\nAn introduction to the Stained Glass Collage photo to print technology in Japanese",
+    "videoId": "DjhEIGggOL0"
+  },
+  {
+    "publishedAt": "2014-01-10T18:11:46Z",
+    "title": "Seamless Document Sharing",
+    "description": "",
+    "videoId": "mGv3sq8r8Xw"
+  },
+  {
+    "publishedAt": "2014-01-10T17:55:31Z",
+    "title": "Seamless Conferencing",
+    "description": "Vison of conferencing in a highly instrumented space.",
+    "videoId": "lWSB_7vL5fg"
+  },
+  {
+    "publishedAt": "2014-01-10T17:55:59Z",
+    "title": "Reboard",
+    "description": "Whiteboards provide an intuitive, flexible interface that is useful for a wide array of tasks. However, since they are not designed to support archival and reuse people can easily lose important information. To  address this issue we built ReBoard, a system that automatically captures whiteboard images and makes them accessible and sharable through a novel set of user-centered access tools.",
+    "videoId": "9abcLaP-DLE"
+  },
+  {
+    "publishedAt": "2014-01-10T17:55:16Z",
+    "title": "Real-Time Direct Manipulation of Screen-Based Videos",
+    "description": "We are working on techniques to better navigate expository videos. Here, we employ real time analysis to allow users to select, copy, and paste text to external documents; navigate scrolling content in a video using the mouse wheel; and zoom into regions-of-interest within a video.",
+    "videoId": "oTk3BQ2HR6U"
+  },
+  {
+    "publishedAt": "2014-01-10T17:55:29Z",
+    "title": "Portable Presentation Player - Mobile Viewing of User-Controllable Movies of Slide Presentations",
+    "description": "Recorded presentations are difficult to watch on a mobile phone because of the small screen, and even more challenging when the user is traveling or commuting. This demo shows an application designed for viewing presentations in a mobile situation, and describes the design process that involved on-site observation and informal user testing at our lab. The system generates a user-controllable movie by capturing a slide presentation, extracting active regions of interest using cues from the presenter, and creating pan-and-zoom effects to direct the active regions within a small screen. During playback, the user can simply watch the movie in automatic mode using a minimal amount of effort to operate the application. When more flexible control is needed, the user can switch into manual mode to temporarily focus on specific regions of interest.",
+    "videoId": "LQOx1IeMHBM"
+  },
+  {
+    "publishedAt": "2014-01-10T17:55:36Z",
+    "title": "PointPose  モバイル・デバイスでタッチ入力を行う際の指の形の推定",
+    "description": "PointPose is a prototype that allows finger pose information (tilt and rotation) to be obtained at the point of touch on touch-based mobile devices, thus adding to the expressiveness of touch input. PointPose uses a short-range depth sensor viewing the touch screen that provides a point cloud that is used to infer finger pose information. We outline an algorithm that extracts finger rotation and tilt from the point cloud using cylindrical model fitting. Our prototype is lightweight, does not require any additional tracking, and can be adapted to work with most touch-based mobile devices, making it ideal for prototyping touch-based applications that make use of finger pose information.\n\nPointPoseはタッチ入力可能なモバイル・デバイス上でタッチした指の形の情報を獲得することができるプロトタイプであり、タッチ入力の表現力を豊かにします（どのような形・ポーズでタッチしているかがわかります）。PointPoseはタッチ・スクリーンをみるために短距離の深度センサーを使っており、このセンサーが提供するポイント・クラウド（指の各点の深度情報）で指の形を推定します。円筒モデルを適合させてポイント・クラウドから指の回転や傾きを抽出を行うことがアルゴリズムの概要になります。このプロトタイプは軽量であり、その他の情報をトラッキングする必要がありませんし、ほとんどのタッチ・ベースのモバイル・デバイスに適用することが可能です。指の形の情報を利用するタッチ・ベースのアプリケーションをプロトタイプするのに理想的です。",
+    "videoId": "cLmftWiELts"
+  },
+  {
+    "publishedAt": "2014-01-10T17:40:17Z",
+    "title": "PicDetectApp Demo - 01-12-10",
+    "description": "Video figure. An image detection system for hand held devices.",
+    "videoId": "Qm5vKWgHFYk"
+  },
+  {
+    "publishedAt": "2014-01-10T17:40:39Z",
+    "title": "PACER: Paper and Cellphone Editor and Reader",
+    "description": "PACER, a paper and cellphone editor and reader is a system supporting interaction with document details (e.g. individual words, East Asian characters, math symbols, music notes, and user-specified arbitrary image regions) of generic paper documents through a camera phone. With an embodied phone interface, a user can take the phone as an optical mouse and the paper document as a static display for rich GUI-like interaction.",
+    "videoId": "iAkdgRLSOns"
+  },
+  {
+    "publishedAt": "2014-01-10T17:42:15Z",
+    "title": "Nudgecam",
+    "description": "NudgeCam is a mobile application that can help users capture more relevant, higher quality media. To guide users to capture media more relevant to a particular project, third-party template creators can show users media that demonstrates relevant content and can tell users what content should be present in each captured media using tags and other meta-data such as location and camera orientation.",
+    "videoId": "WSP0LUkfZb8"
+  },
+  {
+    "publishedAt": "2014-01-10T17:40:08Z",
+    "title": "NoteLook",
+    "description": "A video annotation device, 1998",
+    "videoId": "ybJtZVtceQM"
+  },
+  {
+    "publishedAt": "2014-01-10T17:43:00Z",
+    "title": "MyUnity",
+    "description": "Modern office work practices increasingly breach traditional boundaries of time and place, making it difficult to interact with colleagues. To address these problems, we developed myUnity, a software and sensor platform that enables rich workplace awareness and coordination. myUnity is an integrated platform that collects information from a set of independent sensors and external data aggregators to report user location, availability, tasks, and communication channels. myUnity's sensing architecture is component-based, allowing channels of awareness information to be added, updated, or removed at any time. Multiple channels of input are combined and composited into a single, high-level presence state. Early studies of a myUnity deployment have demonstrated that the platform allows quick access to core awareness information and show that it has become a useful tool for supporting communication and collaboration in the modern workplace.",
+    "videoId": "gdUFUJEPW7k"
+  },
+  {
+    "publishedAt": "2014-01-10T17:39:33Z",
+    "title": "myUnity: a communications software platform for the modern workplace",
+    "description": "myUnity is motivated by a simple, but very powerful observation: our work, and related work practices,  are becoming increasingly distributed across both time and place. For many businesses, the disparate nature of work is so profound that \"9-to-5\" has lost its meaning. While, at the same time, it is not unusual for us to have colleagues, even close colleagues that we work with on a daily basis, to be people we have never met face-to-face.",
+    "videoId": "t0cZe_g3dew"
+  },
+  {
+    "publishedAt": "2014-01-10T17:39:51Z",
+    "title": "mVideoCast: Mobile, real-time ROI detection and streaming",
+    "description": "A variety of applications are emerging to support streaming video from mobile devices. However, many tasks can benefit from streaming specific content rather than the full video feed which may include irrelevant, private, or distracting content. We describe a system that allows users to capture and stream targeted video content captured with a mobile device. The application incorporates a variety of automatic and interactive techniques to identify and segment desired content in the camera view, allowing the user to publish a more focused video.\n\nhttp://arxiv.org/abs/1011.2538",
+    "videoId": "QArqjJO3Ezc"
+  },
+  {
+    "publishedAt": "2014-01-10T17:39:31Z",
+    "title": "Multi-touch Document Folding",
+    "description": "For document visualization, folding techniques provide a focus-plus-context approach with fairly high legibility on flat sections. To enable richer interaction, we explore the design space of multi-touch document folding.  This video shows a prototype document workspace application that integrates folding and standard multi-touch gestures.",
+    "videoId": "dHTrSpYP6pA"
+  },
+  {
+    "publishedAt": "2014-01-10T17:40:30Z",
+    "title": "mTable (v.2)",
+    "description": "In this video demo, we present mTable, a multimedia tabletop system for browsing photo and video collections. We have developed a set of applications for visualizing and exploring photos, a board game for labeling photos, and a 3D cityscape metaphor for browsing videos. The system is suitable for use in a living room or office lounge, and can support multiple displays by visualizing the collections on the tabletop and showing full-size images and videos on another flat panel display in the room.",
+    "videoId": "zuvk8RbFVpk"
+  },
+  {
+    "publishedAt": "2014-01-10T17:40:12Z",
+    "title": "Marking Up a World: Physical Markup for Virtual Content Creation",
+    "description": "The Pantheia system enables users to create virtual models by \"marking up\" the real world with pre-printed markers. The markers have predefined meanings that guide the system as it creates models. The Pantheia system takes as input user captured images or video of the marked up space.  This video illustrates the workings of the system and shows it being used to create three models, one of a cabinet, one of a lab, and one of a conference room. As part of the Pantheia system, we also developed a 3D viewer that spatially integrates a model with images of the model.",
+    "videoId": "N5rhIsTKPKA"
+  },
+  {
+    "publishedAt": "2014-01-10T17:29:27Z",
+    "title": "Manipulating and Annotating Slides in a Multi Display Environment",
+    "description": "The Mod Slide Show system uses gestures to manipulate and annotate slides in a multi-dsiplay environment. FXPAL 2003.",
+    "videoId": "NkYxYBzm54A"
+  },
+  {
+    "publishedAt": "2014-01-10T17:30:11Z",
+    "title": "Managing Digital Memories with the FXPAL Photo Application",
+    "description": "The FXPAL Photo Application is designed to facilitate the organization of digital images from digital cameras and other sources through automated organization and intuitive user interfaces.",
+    "videoId": "RVJuFjrTQGI"
+  },
+  {
+    "publishedAt": "2014-01-10T17:29:32Z",
+    "title": "Magic Mirror 2013",
+    "description": "Magic Mirror extends the Google Earth api by integrating detailed floor plans and location sensor data to present an augmented view of both human and site specific information.",
+    "videoId": "f_cT66P8C2I"
+  },
+  {
+    "publishedAt": "2014-01-10T17:29:04Z",
+    "title": "Leading People to Longer Queries",
+    "description": "Although longer queries can produce better results for information seeking tasks, people tend to type short queries. We created an interface designed to encourage people to type longer queries, and evaluated it in two Mechanical Turk experiments. Results suggest that our interface manipulation may be effective for eliciting longer queries.",
+    "videoId": "0dJvVzy3OYk"
+  },
+  {
+    "publishedAt": "2014-01-10T17:29:12Z",
+    "title": "iPhone diagonal text scrolling and reading v2",
+    "description": "The display diagonal can hold more text or a larger font than what can be rendered horizontally or vertically. This may ease text reading on mobile devices such as the iPhone.",
+    "videoId": "1N8xKZeqyZc"
+  },
+  {
+    "publishedAt": "2014-01-10T17:14:02Z",
+    "title": "HyperHitchcock",
+    "description": "Hyper-Hitchcock consists of three components for creating and viewing a form of interactive video called detail-on-demand video: a hypervideo editor, a hypervideo player, and algorithms for automatically generating hypervideo summaries. Detail-on-demand video is a form of hypervideo that supports one hyperlink at a time for navigating between video sequences. The Hyper-Hitchcock editor enables authoring of detail-on-demand video without programming and uses video processing to aid in the authoring process. The Hyper-Hitchcock player uses labels and keyframes to support navigation through and back hyperlinks. Hyper-Hitchcock includes techniques for automatically generating hypervideo summaries of one or more videos that take the form of multiple linear summaries of different lengths with links from the shorter to the longer summaries. User studies on authoring and viewing provided insight into the various roles of links in hypervideo and found that player interface design greatly affects peoples understanding of hypervideo structure and the video they access.",
+    "videoId": "LaXZuLA-68g"
+  },
+  {
+    "publishedAt": "2014-01-10T17:14:40Z",
+    "title": "How to Create Stained Glass Collages on Walmart Fujifilm Kiosks",
+    "description": "A brief instructional video",
+    "videoId": "N3VuoN91B1c"
+  },
+  {
+    "publishedAt": "2014-01-10T17:13:22Z",
+    "title": "FXPAL Interactive Experiments for TRECVID 2008",
+    "description": "In 2008, FXPAL submitted results for two tasks: rushes summarization and interactive search. We describe out interactive search experiments in this video. The rushes summarization task has been described in the ACM Multimedia Workshop (2008). This video describes our interactive search experiments as also published in the paper \"FXPAL Interactive Search Experiments for TRECVID 2008\" (Pickens, et al ACM '08)",
+    "videoId": "fpbAWZ5NEkI"
+  },
+  {
+    "publishedAt": "2014-01-10T17:13:37Z",
+    "title": "FormCracker",
+    "description": "An automated, web-based system for filling in forms in a wide variety of formats including .doc, pdf, etc.",
+    "videoId": "aL1F7tjq2NE"
+  },
+  {
+    "publishedAt": "2014-01-10T17:12:06Z",
+    "title": "Flyabout (2001)",
+    "description": "We describe a system called FlyAbout which uses spatially indexed panoramic video for virtual reality applications. Panoramic video is captured by moving a 360° camera along continuous paths. Users can interactively replay the video with the ability to view any interesting object or choose a particular direction. Spatially indexed video gives the ability to travel along paths or roads with a map-like interface. At junctions, or intersection points, users can chose which path to follow as well as which direction to look, allowing interaction not available with conventional video. Combining the spatial index with a spatial database of maps or objects allows users to navigate to specific locations or interactively inspect particular objects.",
+    "videoId": "NIziO0u7zsU"
+  },
+  {
+    "publishedAt": "2014-01-10T17:11:58Z",
+    "title": "Flyabout - Japanese (2000)",
+    "description": "Flyaboutというシステムを紹介します。このシステムは仮想現実の応用としてインデックス付けを行ったパノラマビデオを使用します。パノラマビデオは道に沿って360度カメラを移動させることで撮影されます。ユーザーは、興味のある対象物を表示し続けたり、特定の方向を選択する機能を使って、インタラクティブにビデオを再生することができます。空間でインデックス付けを行われたビデオが地図のようなインターフェースと共に経路や道路に沿って移動・再生する能力を与えてくれます。分岐点や交差点では、従来ビデオでは対応できないインタラクションによって、ユーザーが視線と同様に進む方向も選ぶことができます。空間インデックスと地図や対象物の空間データベースを結びつけることで、ユーザーが特定の場所へナビゲートすることや、インタラクティブに個別な対象物を調べることを可能にしています。(2000年)",
+    "videoId": "Wl8FSZmFdl0"
+  },
+  {
+    "publishedAt": "2014-01-10T17:06:28Z",
+    "title": "Embedded Media Markers",
+    "description": "Embedded Media Markers (EMM) are lightweight marks on paper that link printed documents to external multimedia using a camera phone.",
+    "videoId": "qszNT_96oIg"
+  },
+  {
+    "publishedAt": "2014-01-10T17:06:27Z",
+    "title": "紙に埋め込み、異なるメディアにリンクするためのマーカー Embedded Media Markers (EMM)",
+    "description": "Embedded Media Markers (EMM)は紙の上の透かしのように軽量なマーカーであり、カメラ付携帯電話を使うことで印刷した文書と外部マルチメディアを繋げます。\nEmbedded Media Markers (EMM) are lightweight marks on paper that link printed documents to external multimedia using a camera phone.",
+    "videoId": "VEugdjvkg-Y"
+  },
+  {
+    "publishedAt": "2014-01-09T20:37:55Z",
+    "title": "Dream Flight: Remote FPV",
+    "description": "A small remote control multi rotor helicopter located in Foster City, California was piloted from an office 14 miles away in Palo Alto, California.",
+    "videoId": "-maTyV-Sd9g"
+  },
+  {
+    "publishedAt": "2014-01-09T20:37:49Z",
+    "title": "DOTS Surveillance System",
+    "description": "DOTS (Dynamic Object Tracking System) is an indoor, real-time, multi-camera surveillance system, deployed in a real office setting. DOTS combines video analysis and user interface components to enable security personnel to effectively monitor views of interest and to perform tasks such as tracking a person. The video analysis component performs feature-level foreground segmentation with reliable results even under complex conditions. It incorporates an efficient greedy-search approach for tracking multiple people through occlusion and combines results from individual cameras into multi-camera trajectories. The user interface draws the users attention to important events that are indexed for easy reference. Different views within the user interface provide spatial information for easier navigation. DOTS, with over twenty video cameras installed in hallways and other public spaces in our office building, has been in constant use for a year. Our experiences led to many changes that improved performance in all system components",
+    "videoId": "9wVAVm8-bQ8"
+  },
+  {
+    "publishedAt": "2014-01-09T20:36:01Z",
+    "title": "Dokumobility",
+    "description": "Mobile users often require access to their documents while away from the office. While pre-loading documents in a repository can make those documents available remotely, people need to know in advance which documents they might need. Furthermore, it may be difficult to view, print, or share the document through a portable device such as cell phone. We implemented DoKumobility, a network of web services for mobile users for managing, printing, and sharing documents. In this video, we describe the infrastructure and illustrate its use with several applications.",
+    "videoId": "SezWw6LrxXw"
+  },
+  {
+    "publishedAt": "2014-01-09T20:35:54Z",
+    "title": "DisplayCast: a High Performance Screen Sharing System for Intranets",
+    "description": "DisplayCast is a many to many screen sharing system that is targeted towards Intranet scenarios. The capture software runs on all computers whose screens need to be shared. It uses an application agnostic screen capture mechanism that creates a sequence of pixmap images of the screen updates. It transforms these pixmaps to vastly improve the lossless Zlib compression performance. These algorithms were developed after an extensive analysis of typical screen contents. DisplayCast shares the processor and network resources required for screen capture, compression and transmission with host applications whose output needs to be shared. It balances the need for high performance screen capture with reducing its resource interference with user applications. DisplayCast uses Zeroconf for naming and asynchronous location. It provides support for Cisco WiFi and Bluetooth based localization. It also includes a HTTP/REST based controller for remote session initiation and control. DisplayCast supports screen capture and playback in computers running Windows 7 and Mac OS X operating systems. Remote screens can be archived into a H.264 encoded movie on a Mac. They can also be played back in real time on Apple iPhones and iPads. The software is released under a New BSD license.",
+    "videoId": "05swyFJk5T0"
+  },
+  {
+    "publishedAt": "2014-01-09T20:35:51Z",
+    "title": "DiG: A task-based approach to product search",
+    "description": "DiG is a walk-up-and-use system that lets people make informed \npurchasing decisions about products. DiG recommends products to users \nbased on how they plan to use the product. The interface uses \ninformation extracted automatically from sentences in online customer \nreviews. Statistical methods that cluster and find patterns are used to \nget detailed information about product features and uses.",
+    "videoId": "91PIDpp8tnA"
+  },
+  {
+    "publishedAt": "2014-01-09T20:28:43Z",
+    "title": "分散型インテリジェント会議環境 DICE Distributed Intelligent Conferencing Environment",
+    "description": "スマート空間研究が現在直面する根本的な課題のひとつは現実の日々の活動をサポートすることです。多くの研究が新規のインタラクション技術の地平を切り開くことに費やされている一方で、広範に採用される技術は、柔軟であると同時に、単刀直入な構成変更や制御を際立たせる設計アプローチが必要であろうと考えます。私たちは大規模・多目的の会議室について利用者の会議室の利用の仕方を調べて、利用者が会議室の機能を利用することを手助けするシステムであるDICEを設計しました。このビデオでは基本システムと、プロトタイプ・システムをどのようにして利用するかについて説明します。\n\nOne of the core challenges now facing smart rooms is supporting realistic, everyday activities. While much research has been done to push forward the frontiers of novel interaction techniques, we argue that technology geared toward widespread adoption requires a design approach that emphasizes straightforward configuration and control, as well as flexibility. We examined the work practices of users of a large, multi-purpose conference room, and designed DICE, a system to help them use the room's capabilities. This video describes the basic system and how to use our prototype.",
+    "videoId": "nDD02zZLLmc"
+  },
+  {
+    "publishedAt": "2014-01-09T20:28:23Z",
+    "title": "DICE: Distributed Intelligent Conferencing Environment",
+    "description": "One of the core challenges now facing smart rooms is supporting realistic, everyday activities. While much research has been done to push forward the frontiers of novel interaction techniques, we argue that technology geared toward widespread adoption requires a design approach that emphasizes straightforward configuration and control, as well as flexibility. We examined the work practices of users of a large, multi-purpose conference room, and designed DICE, a system to help them use the room's capabilities. This video describes the basic system and how to use our prototype.",
+    "videoId": "h1-9mYq7-qo"
+  },
+  {
+    "publishedAt": "2014-01-09T20:29:27Z",
+    "title": "Cerchiamo: Collaborative Search",
+    "description": "This video describes Cerchiamo, a collaborative exploratory search system that allows teams of searchers to explore document collections synchronously. Working with Cerchiamo, team members use independent interfaces to run queries, browse results, and make relevance judgments. The system mediates the team members search activity by passing and reordering search results and suggested query terms based on the teams actions. The combination of synchronous influence with independent interaction allows team members to be more effective and efficient in performing search tasks.",
+    "videoId": "3NTz7GX6Rl8"
+  },
+  {
+    "publishedAt": "2014-01-09T20:29:15Z",
+    "title": "CBAZ: Content Based Automatic Zooing",
+    "description": "This video clip shows CBAZ (Content Based Automatic Zooming), an \nautomatic zooming technique that leverages content analysis for viewing \na document page on a small display such as a smartphone.",
+    "videoId": "ko7vOuYjlCQ"
+  },
+  {
+    "publishedAt": "2014-01-09T20:28:05Z",
+    "title": "Camera Pose Navigation Using Augmented Reality",
+    "description": "A system that enhances the process of comparing real world objects with 3d renderings.",
+    "videoId": "-a2Qmin7gcw"
+  },
+  {
+    "publishedAt": "2014-01-09T20:28:28Z",
+    "title": "Bezel Swipe",
+    "description": "The iPhone takes a fresh approach at defining the user interface for mobile devices, which invites further innovation for new generations of touch enabled mobile devices. At the same time, some of its interaction designs provide challenges. For example, swiping gestures can be used anywhere on the screen of an iPhone for navigation, no scroll bars are used. This makes navigation remarkably seamless and easy, at the expense of selection tasks that would also be supported naturally by the same gestures. In this demo, we show techniques that enable both activities simultaneously with minimal interference. We also demonstrate other user interface designs that are driven by the features and and a desire to overcome the limits of small displays for iPhone-type devices. This includes diagonal scrolling as a means to maximize line width and font size for mobile reading, and a graphical authentication method.",
+    "videoId": "RdGLk1QNQUU"
+  },
+  {
+    "publishedAt": "2014-01-09T20:28:38Z",
+    "title": "2011 Virtual Factory",
+    "description": "The Virtual Factory project investigates applications of mixed-reality, mobile, and virtual worlds in industrial settings. In collaboration with TCHO, a chocolate maker start-up in San Francisco, we created virtual \"mirror world\" representations of a real-world chocolate factory, and then imported real-time sensor data from the real factory floor into the resulting virtual factory. This 3D environment is designed for simulation, visualization, and collaboration, using a set of interlinked, real-time 3D, 2D and mobile layers of information about the TCHO chocolate factory and its processes.",
+    "videoId": "wpBkNFNCh3Y"
+  },
+  {
+    "publishedAt": "2013-09-12T21:02:25Z",
+    "title": "Sharing Information Through Social Interactions: Pervasive Computing and Natural User Interfaces",
+    "description": "An exploration of a few of the implications of ubiquitous computing in a post-PC work environment.",
+    "videoId": "ENtTfOUWA9I"
+  },
+  {
+    "publishedAt": "2013-06-12T19:58:14Z",
+    "title": "Smart Phones as part of the Extended Desk - Scenario 2",
+    "description": "One of a series of videos exploring simple interactions between users with mobile computing devices and environments with various embedded technologies. This video depicts a person accessing their personal desktop computer in a public space. A local display device provides a \"good enough\" image while the user's mobile phone projector provides a clearer image.",
+    "videoId": "BU4flJ7BNFE"
+  },
+  {
+    "publishedAt": "2013-06-12T19:37:44Z",
+    "title": "Tablets on the Extended Desk",
+    "description": "One of a series of videos exploring simple interactions between users with mobile computing devices and environments with various embedded technologies.This video depicts a person accessing their personal desktop computer in a public space. A local display device provides a \"good enough\" image while the user's tablet provides a clearer, more interactive, image. Later, the same user downloads a document onto their tablet computer.",
+    "videoId": "nGwQS9_4pkA"
+  },
+  {
+    "publishedAt": "2013-01-25T18:16:35Z",
+    "title": "Querium",
+    "description": "Querium is a session-based information seeking tool that supports collaborative exploratory search.",
+    "videoId": "ZYwCsOdwh3M"
+  },
+  {
+    "publishedAt": "2010-07-15T15:10:16Z",
+    "title": "XLibris: The Active Reading Machine (1998)",
+    "description": "The \"XLibris Active Reading Machine\" uses a high-resolution pen tablet display along with a paper-like user interface to emulate the physical experience of reading a document on paper: the reader can hold a scanned image of a page in his lap and mark on it with digital ink. Moreover, XLibris monitors free-form ink annotations made while reading, and uses these to organize and search for related information.",
+    "videoId": "60e7cxK7Fhw"
+  },
+  {
+    "publishedAt": "2009-02-14T00:34:52Z",
+    "title": "PostBit",
+    "description": "A Post-Bit is a prototype of a small ePaper device for handling multimedia content, combining interaction control and display into one package. Post-Bits are modeled after paper Post-Its; the functions of each Post-Bit combine the affordances of physical tiny sticky memos and digital handling of information. Post-Bits enable us to arrange multimedia content in embodied physical spaces. Tangible properties of paper such as flipping, flexing, scattering and rubbing are mapped to controlling aspects of the content. In this video, we introduce the integrated design and functionality of the Post-Bit system, including four main components: the ePaper sticky memo/player, with integrated sensors and connectors; a small container/binder that a few Post-Bits can fit into, for ordering and multiple connections; the data and power port that allows communication with the host computer; and finally the software and GUI interface that reside on the host PC and manage multimedia transfer.",
+    "videoId": "7DRUApPC_1I"
+  }
+]
