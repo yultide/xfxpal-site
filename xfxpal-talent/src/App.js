@@ -8,9 +8,7 @@ import './App.css';
 
 const style = {
   h1: {
-    marginBottom: '1em',
-    marginTop: '1em',
-    fontSize: '2.5rem'
+    marginBottom: '1em'
   },
   h2: {
     margin: '4em 0em 2em'
@@ -117,7 +115,7 @@ const makeIDs = () => {
 function App() {
   return (
     <div className='App'>
-      <Container>
+      <Container style={{ marginTop: '2em' }}>
         <Header
           as='h1'
           style={style.h1}
