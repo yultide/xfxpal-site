@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Header, Icon, Image, Card } from 'semantic-ui-react';
 
-import { peopleJson } from './peopleJson';
+import peopleJson from './people.json';
 import { peopleMap } from './peopleMap';
 
 import './App.css';
@@ -17,6 +17,10 @@ const style = {
     marginTop: '2em',
     padding: '2em 0em'
   },
+  iconbar: {
+    marginTop: '1em',
+    marginBottom: '1em'
+  },
   last: {
     marginBottom: '300px'
   }
@@ -26,7 +30,7 @@ const getLink = (icon, label, link) => {
   if (link !== '') {
     return (
       <a target='_blank' rel='noopener noreferrer' href={link} style={{ display: 'inline-block', minWidth: '90px' }}>
-        <Icon name={icon} />{' '}{label}{' '}
+        <Icon name={icon} /> {label}{' '}
       </a>
     );
   }
@@ -52,7 +56,11 @@ const IDCard = (
 ) => {
   let region = location;
   if (locoption !== '') {
-    region += ' (' + locoption + ')';
+    locoption = locoption.replace('Open to Local Area', '');
+    if (locoption !== '') {
+      locoption = locoption.replace(';', ', ');
+      region += ' (' + locoption + ')';
+    }
   }
   if (website !== '' && webname === '') {
     webname = 'Website';
@@ -60,7 +68,13 @@ const IDCard = (
   return (
     <Card fluid key={key}>
       <Card.Content textAlign='left'>
-        <Image rounded floated='right' size='small' src={process.env.PUBLIC_URL + 'images/' + imagefile} />
+        <Image
+          style={{ width: '150px', height: '150px' }}
+          rounded
+          floated='right'
+          size='small'
+          src={process.env.PUBLIC_URL + 'images/' + imagefile}
+        />
         <Card.Header>{name}</Card.Header>
         <Card.Meta>
           <div>
@@ -70,13 +84,15 @@ const IDCard = (
           <div>
             <span style={{ fontStyle: 'italic', color: '#777' }}>{region}</span>
           </div>
-          {getLink('linkedin', 'LinkedIn', linkedin)}
-          {getLink('lab', 'Scholar', scholar)}
-          {getLink('file alternate', 'Resume', resume)}
-          {getLink('github', 'GitHub', github)}
-          {getLink('twitter', 'Twitter', twitter)}
-          {getLink('instagram', 'Instagram', instagram)}
-          {getLink('globe', webname, website)}
+          <div style={style.iconbar}>
+            {getLink('linkedin', 'LinkedIn', linkedin)}
+            {getLink('lab', 'Scholar', scholar)}
+            {getLink('file alternate', 'Resume', resume)}
+            {getLink('github', 'GitHub', github)}
+            {getLink('twitter', 'Twitter', twitter)}
+            {getLink('instagram', 'Instagram', instagram)}
+            {getLink('globe', webname, website)}
+          </div>
         </Card.Meta>
         <Card.Description>{blurb}</Card.Description>
       </Card.Content>
@@ -84,8 +100,15 @@ const IDCard = (
   );
 };
 
+const shuffleArr = (array) => {
+  for (var i = array.length - 1; i > 0; i--) {
+    var rand = Math.floor(Math.random() * (i + 1));
+    [array[i], array[rand]] = [array[rand], array[i]];
+  }
+};
+
 const makeIDs = () => {
-  peopleJson.sort((a, b) => a.Name.localeCompare(b.Name));
+  shuffleArr(peopleJson);
   return (
     <Card.Group itemsPerRow='2' stackable={true}>
       {peopleJson.map((pj, i) =>

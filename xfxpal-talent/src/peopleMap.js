@@ -10,6 +10,7 @@ export const peopleMap = {
   h: 'hao.jpg',
   'Kandha Sankarapandian': 'kandha.jpg',
   k: 'kimber.jpg',
+  'Laurent Denoue': 'laurent.jpg',
   l: 'lyndon.jpg',
   m: 'mattlee.jpg',
   'Mitesh Patel': 'mitesh.jpg',
