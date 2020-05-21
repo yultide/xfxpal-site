@@ -16,6 +16,7 @@ export default class Videos extends React.Component {
     }
 
     render() {
+        let blacklist = new Set(['QehkG8UOkNI'])
         return (
             <>
                 <Header as="h1" style={style.h1} textAlign="center">Videos showcasing the work done at FXPAL</Header>
@@ -27,7 +28,9 @@ export default class Videos extends React.Component {
                     ]}
                 >
                     <Grid columns={4} doubling stackable>
-                    {videos.map((v,i) => {
+                    {videos.filter((v) => {
+                        return !blacklist.has(v.videoId)
+                    }).map((v,i) => {
                         // implement youtube links for now
                         let videoUrl = `https://youtu.be/${v.videoId}`;
                         let videoThumb = `https://i3.ytimg.com/vi/${v.videoId}/mqdefault.jpg`;
