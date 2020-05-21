@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Image, Grid } from 'semantic-ui-react'
+import { Header, Image, Grid, Popup } from 'semantic-ui-react'
 import { LightgalleryItem, LightgalleryProvider } from "react-lightgallery";
 import "lightgallery.js/dist/css/lightgallery.css";
 import videos from './videos.json';
@@ -34,7 +34,10 @@ export default class Videos extends React.Component {
                         let videoThumb = `https://i3.ytimg.com/vi/${v.videoId}/mqdefault.jpg`;
                         return <Grid.Column key={i}>
                             <LightgalleryItem group='any' src={videoUrl} thumb={videoThumb}>
-                                <Image src={videoThumb} size='massive' rounded />
+                                <Popup
+                                    content={v.title}
+                                    trigger={<Image src={videoThumb} size='massive' rounded />}
+                                />
                             </LightgalleryItem>
                             </Grid.Column>
                     })}
