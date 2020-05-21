@@ -5,7 +5,7 @@ export const peopleMap = {
   c: 'carter.jpg',
   c2: 'chelhwon.jpg',
   c3: 'chidansh.jpg',
-  d: 'daniel.jpg',
+  'Daniel Avrahami': 'daniel.jpg',
   f: 'filby.jpg',
   h: 'hao.jpg',
   'Kandha Sankarapandian': 'kandha.jpg',
