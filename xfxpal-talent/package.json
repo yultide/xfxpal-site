@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "csvtojson": "^2.0.10",
     "googleapis": "^51.0.0",
+    "gzipper": "^3.7.0",
     "lunr": "^2.3.8",
     "query-string": "^6.12.1",
     "react": "^16.13.1",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && bash scripts/update-webroot.sh",
+    "build": "react-scripts build && gzipper --level 9 build && bash scripts/update-webroot.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sync": "node scripts/sync.js",
