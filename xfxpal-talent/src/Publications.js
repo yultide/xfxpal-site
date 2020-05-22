@@ -134,7 +134,7 @@ export default class Publications extends React.Component {
             {this.state.publications.slice(0, this.state.showPublications).map((p,i) => {
                 return <Card fluid key={i} style={style.card}>
                     <Card.Content textAlign='left'>
-                        <Card.Header>{p.Title}</Card.Header>
+                        <Card.Header dangerouslySetInnerHTML={{ __html: p.Title}} />
                         <Card.Description>
                             <div><span style={style.hilight}>Authors:</span> {p.AuthorsList}</div>
                             <div><span style={style.hilight}>Publication Date:</span> {p.PublicationDate}</div>
