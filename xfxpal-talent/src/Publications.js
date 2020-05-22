@@ -30,7 +30,7 @@ export default class Publications extends React.Component {
 
     state = {
         q: '',
-        showPublications: 10,
+        publicationCount: 10,
         publications: publications
     }
 
@@ -65,13 +65,13 @@ export default class Publications extends React.Component {
         if (this.isBottom(wrappedElement)) {
             console.log('header bottom reached');
             //document.removeEventListener('scroll', this.trackScrolling);
-            var numPubs = this.state.showPublications + 10;
+            var numPubs = this.state.publicationCount + 10;
             if (numPubs > publications.length) {
                 numPubs = publications.length
             }
-            if (this.state.showPublications !== numPubs) {
+            if (this.state.publicationCount !== numPubs) {
                 this.setState({
-                    showPublications: numPubs,
+                    publicationCount: numPubs,
                 })
             }
         }
@@ -120,7 +120,7 @@ export default class Publications extends React.Component {
     onKeyPress = (event) => {
         if (event.key === 'Enter') {
             let publications = this.searchText(this.state.q)
-            this.setState({publications})
+            this.setState({publications, publicationCount: 10})
         }
     }
 
@@ -131,7 +131,7 @@ export default class Publications extends React.Component {
             <Input fluid icon='search' placeholder='Search...'
                 value={this.state.q} onChange={this.onQueryChange} onKeyPress={this.onKeyPress}
             />
-            {this.state.publications.slice(0, this.state.showPublications).map((p,i) => {
+            {this.state.publications.slice(0, this.state.publicationCount).map((p,i) => {
                 return <Card fluid key={i} style={style.card}>
                     <Card.Content textAlign='left'>
                         <Card.Header dangerouslySetInnerHTML={{ __html: p.Title}} />
