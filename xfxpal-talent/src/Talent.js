@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Icon, Image, Card, Header } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 import peopleJson from './people.json';
 import { peopleMap } from './peopleMap';
@@ -15,13 +16,21 @@ const style = {
     },
 };
 
-const getLink = (icon, label, link) => {
+const getLink = (icon, label, link, newPage = true) => {
     if (link !== '') {
-        return (
-            <a target='_blank' rel='noopener noreferrer' href={link} style={{ display: 'inline-block', minWidth: '90px' }}>
-                <Icon name={icon} /> {label}{' '}
-            </a>
-        );
+        if (newPage) {
+            return (
+                <a target={newPage ? '_blank' : null} rel='noopener noreferrer' href={link} style={{ display: 'inline-block', minWidth: '90px' }}>
+                    <Icon name={icon} /> {label}{' '}
+                </a>
+            );
+        } else {
+            return (
+                <Link to={link} style={{ display: 'inline-block', minWidth: '90px' }}>
+                    <Icon name={icon} /> {label}{' '}
+                </Link>
+            );
+        }
     }
 };
 
@@ -81,7 +90,7 @@ const IDCard = (
                         {getLink('twitter', 'Twitter', twitter)}
                         {getLink('instagram', 'Instagram', instagram)}
                         {getLink('globe', webname, website)}
-                        {getLink('book', 'Publications', '/publications?q=' + encodeURIComponent(name))}
+                        {getLink('book', 'Publications', '/publications?q=' + encodeURIComponent(name), false)}
                     </div>
                 </Card.Meta>
                 <Card.Description>{blurb}</Card.Description>
