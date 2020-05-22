@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Menu, Segment, Dimmer, Loader } from 'semantic-ui-react';
+import { Container, Menu, Dimmer, Loader } from 'semantic-ui-react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 
 import './App.css';

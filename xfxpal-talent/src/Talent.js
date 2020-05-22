@@ -34,6 +34,12 @@ const getLink = (icon, label, link, newPage = true) => {
     }
 };
 
+function makePublicationsUrl(name) {
+    let parts = name.split(/\s+/);
+    parts = parts.map(p => '+' + p)
+    return encodeURIComponent(parts.join(' '));
+}
+
 const IDCard = (
     key,
     name,
@@ -90,7 +96,7 @@ const IDCard = (
                         {getLink('twitter', 'Twitter', twitter)}
                         {getLink('instagram', 'Instagram', instagram)}
                         {getLink('globe', webname, website)}
-                        {getLink('book', 'Publications', '/publications?q=' + encodeURIComponent(name), false)}
+                        {getLink('book', 'Publications', '/publications?q=' + makePublicationsUrl(name), false)}
                     </div>
                 </Card.Meta>
                 <Card.Description>{blurb}</Card.Description>
