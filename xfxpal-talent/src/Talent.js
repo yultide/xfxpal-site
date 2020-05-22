@@ -56,7 +56,8 @@ const IDCard = (
     instagram = '',
     website = '',
     webname = 'Website',
-    imagefile = ''
+    imagefile = '',
+    pubSearch = ''
 ) => {
     let region = location;
     if (locoption !== '') {
@@ -96,7 +97,7 @@ const IDCard = (
                         {getLink('twitter', 'Twitter', twitter)}
                         {getLink('instagram', 'Instagram', instagram)}
                         {getLink('globe', webname, website)}
-                        {getLink('book', 'Publications', '/publications?q=' + makePublicationsUrl(name), false)}
+                        {getLink('book', 'Publications', '/publications?q=' + makePublicationsUrl(pubSearch), false)}
                     </div>
                 </Card.Meta>
                 <Card.Description>{blurb}</Card.Description>
@@ -140,7 +141,8 @@ export default () => {
                         pj.Instagram,
                         pj['Other Website'],
                         pj['Pretty Name for Other Website'],
-                        peopleMap[pj['Name']]
+                        peopleMap[pj['Name']].image,
+                        peopleMap[pj['Name']].pubSearch || pj['Name']
                     )
                 )}{' '}
             </Card.Group>
