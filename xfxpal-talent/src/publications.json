@@ -1,7 +1,7 @@
 [
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "04/17/2020",
     "palwebID": "PR-20-949",
@@ -161,13 +161,13 @@
     "PublicationDate": "01/31/2020",
     "ID": "948",
     "Authors": [
-      "Daniel Avrahami",
       "Scott Carter",
+      "Daniel Avrahami",
       "Nami Tokunaga"
     ],
     "Title": "Using Inaudible Audio to Improve Indoor-Localization- and Proximity-Aware Intelligent Applications",
     "Abstract": "While it is often critical for indoor-location- and proximity-aware applications to know whether a user is in a space or not (e.g., a specific room or office), a key challenge is that the difference between standing on one side or another of a doorway or wall is well within the error range of most RF-based approaches. In this work, we address this challenge by augmenting RF-based localization and proximity detection with active ultrasonic sensing, taking advantage of the limited propagation of sound waves. This simple and cost-effective approach can allow, for example, a Bluetooth smart-lock to discern whether a user is inside or outside their home. We describe a configurable architecture for our solution and present experiments that validate this approach but also demonstrate that different user behavior and application needs can impact system configuration decisions. Finally, we describe applications that could benefit from our solution and address privacy concerns.",
-    "AuthorsList": "Daniel Avrahami, Scott Carter, Nami Tokunaga",
+    "AuthorsList": "Scott Carter, Daniel Avrahami, Nami Tokunaga",
     "keywordsList": ""
   },
   {
@@ -1937,7 +1937,7 @@
       "Jason Wiese"
     ],
     "Title": "Surveying User Reactions to Recommendations Based on Inferences Made by Face Detection Technology\r\n",
-    "Abstract": "It is increasingly possible to use cameras and sensors to detect and analyze human appearance for the purposes of personalizing user experiences. Such systems are already deployed in some public places to personalize advertisements and recommend items. However, since these technologies are not yet widespread, we do not have a good sense of the perceived benefits and drawbacks of public display systems that use face detection as an input for personalized recommendations. We conducted a user study with a system that inferred a user’s gender and age from a facial detection and analysis algorithm and used this to present recommendations in two scenarios (finding stores to visit in a mall and finding a pair of sunglasses to buy).  This work provides an initial step towards understanding user reactions to a new and emerging form of implicit recommendation based on physical appearance.\r\n",
+    "Abstract": "It is increasingly possible to use cameras and sensors to detect and analyze human appearance for the purposes of personalizing user experiences. Such systems are already deployed in some public places to personalize advertisements and recommend items. However, since these technologies are not yet widespread, we do not have a good sense of the perceived benefits and drawbacks of public display systems that use face detection as an input for personalized recommendations. We conducted a user study with a system that inferred a user’s gender and age from a facial detection and analysis algorithm and used this to present recommendations in two scenarios (finding stores to visit in a mall and finding a pair of sunglasses to buy).  This work provides an initial step towards understanding user reactions to a new and emerging form of implicit recommendation based on physical appearance.\r\n",
     "AuthorsList": "Jennifer Marlow, Jason Wiese",
     "keywordsList": ""
   },
@@ -3019,7 +3019,7 @@
       "Jennifer Marlow"
     ],
     "Title": "Supporting Multitasking in Video Conferencing using Gaze Tracking and On-Screen Activity Detection",
-    "Abstract": "The use of videoconferencing in the workplace has been steadily growing. While multitasking during video conferencing is often necessary, it is also viewed as impolite and sometimes unacceptable. One potential contributor to negative attitudes towards such multitasking is the disrupted sense of eye contact that occurs when an individual shifts their gaze away to another screen, for example, in a dual-monitor setup, common in office settings. We present a system to improve a sense of eye contact over videoconferencing in dual-monitor setups. Our system uses computer vision and desktop activity detection to dynamically choose the camera with the best view of a userÃÂÃÂ¢ÃÂÃÂÃÂÃÂs face. We describe two alternative implementations of our system (RGB-only, and a combination of RGB and RGB-D cameras). We then describe results from an online experiment that shows the potential of our approach to significantly improve perceptions of a personÃÂÃÂ¢ÃÂÃÂÃÂÃÂs politeness and engagement in the meeting.",
+    "Abstract": "The use of videoconferencing in the workplace has been steadily growing. While multitasking during video conferencing is often necessary, it is also viewed as impolite and sometimes unacceptable. One potential contributor to negative attitudes towards such multitasking is the disrupted sense of eye contact that occurs when an individual shifts their gaze away to another screen, for example, in a dual-monitor setup, common in office settings. We present a system to improve a sense of eye contact over videoconferencing in dual-monitor setups. Our system uses computer vision and desktop activity detection to dynamically choose the camera with the best view of a user's face. We describe two alternative implementations of our system (RGB-only, and a combination of RGB and RGB-D cameras). We then describe results from an online experiment that shows the potential of our approach to significantly improve perceptions of a person's politeness and engagement in the meeting.",
     "AuthorsList": "Daniel Avrahami, Eveline van Everdingen, Jennifer Marlow",
     "keywordsList": ""
   },
@@ -3841,7 +3841,7 @@
     "Projects": [
       "MiningSocialMedia"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "MiningSocialMedia"
     ],
@@ -4002,7 +4002,7 @@
     "Projects": [
       "Polly"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "telepresence",
       "remote guiding",
@@ -4338,7 +4338,7 @@
     "Projects": [
       "MiningSocialMedia"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "sentiment",
       "polarity",
@@ -4532,7 +4532,7 @@
     "Projects": [
       "ShowHow"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ShowHow"
     ],
@@ -4556,7 +4556,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "09/02/2013",
     "palwebID": "PR-13-699",
@@ -4660,7 +4660,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-13-701",
@@ -4734,7 +4734,7 @@
     "Projects": [
       "Querium"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "search results visualization",
       "search navigation support"
@@ -4794,7 +4794,7 @@
     "Projects": [
       "VPoint"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "04/15/2013",
     "palwebID": "PR-13-698",
@@ -4967,7 +4967,7 @@
     "Projects": [
       "MagicMirror"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "mirror worlds",
       "augmented reality",
@@ -5021,7 +5021,7 @@
     "Projects": [
       "SmartDCap"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "smart capture",
       "image quality"
@@ -5197,7 +5197,7 @@
     "Projects": [
       "ShowHow"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ShowHow"
     ],
@@ -5305,7 +5305,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Mixed reality",
       "3D applications",
@@ -5492,7 +5492,7 @@
     "Projects": [
       "DisplayCast"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "displaycast"
     ],
@@ -5674,7 +5674,7 @@
     "Projects": [
       "ActiveReadingApplication"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ara"
     ],
@@ -5729,7 +5729,7 @@
     "Projects": [
       "DigitalPhotoManagement"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "rmo",
       "photo",
@@ -5755,7 +5755,7 @@
     "Projects": [
       "Querium"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "sessionsearch",
       "Querium",
@@ -5783,7 +5783,7 @@
     "Projects": [
       "Querium"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "sessionsearch",
       "Querium",
@@ -5812,7 +5812,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "09/01/2011",
     "palwebID": "PR-11-662",
@@ -5994,7 +5994,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "02/11/2011",
     "palwebID": "PR-11-643",
@@ -6042,7 +6042,7 @@
     "Projects": [
       "PicNTell"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "picntell"
     ],
@@ -6121,7 +6121,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "03/18/2011",
     "palwebID": "PR-11-650",
@@ -6195,7 +6195,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "security",
       "data aggregation",
@@ -6226,7 +6226,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "08/10/2010",
     "palwebID": "PR-11-584",
@@ -6327,7 +6327,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ces",
       "information exploration",
@@ -6486,7 +6486,7 @@
     "Projects": [
       "TheVirtualFactory"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Mixed reality",
       "cross-reality",
@@ -6622,7 +6622,7 @@
     "Projects": [
       "Unity"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "10/16/2010",
     "palwebID": "PR-10-637",
@@ -6816,7 +6816,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "book review",
       "quantum computing"
@@ -6899,7 +6899,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Twitter",
       "CHI",
@@ -7199,7 +7199,7 @@
     "Projects": [
       "SeamlessDocuments"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "seamless"
     ],
@@ -7228,7 +7228,7 @@
       "DocuBrowse",
       "DocumentGenreIdentification"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "docubrowse",
       "genre"
@@ -7253,7 +7253,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Quantum computing; quantum cryptography; public key\r\ncryptography; simulation of quantum systems; qubits; entanglement; efficient algorithms"
     ],
@@ -7362,7 +7362,7 @@
     "Projects": [
       "SeamlessDocuments"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "document reading",
       "mobile",
@@ -7489,7 +7489,7 @@
     "Projects": [
       "SmartRooms"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "next generation office",
       "smart environments",
@@ -7557,7 +7557,7 @@
     "Projects": [
       "TheVirtualFactory"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "industrial collaboration",
       "smart environments",
@@ -7597,7 +7597,7 @@
     "Projects": [
       "Pantheia"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Mixed reality",
       "Pantheia",
@@ -7784,7 +7784,7 @@
     "Projects": [
       "SeamlessDocuments"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Mobile applications",
       "mobile phone",
@@ -7986,7 +7986,7 @@
       "CollaborativeExploratorySearch",
       "Interactive Video Search"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "TRECVID",
       "trecvid",
@@ -8051,7 +8051,7 @@
       "CollaborativeExploratorySearch",
       "Interactive Video Search"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ces",
       "collaborative search",
@@ -8122,7 +8122,7 @@
     "Projects": [
       "CollaborativeExploratorySearch"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "CES",
       "Collaborative Search",
@@ -8153,7 +8153,7 @@
     "Projects": [
       "SmartRooms"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Virtual reality",
       "mobile media",
@@ -8188,7 +8188,7 @@
     "Projects": [
       "USE"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "USE",
       "Multi-display envirnonments",
@@ -8243,7 +8243,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "06/15/2008",
     "palwebID": "PR-08-474",
@@ -8493,7 +8493,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "iPhone",
       "small displays",
@@ -8520,7 +8520,7 @@
     "Projects": [
       "SmartRooms"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Meeting support",
       "smart conference rooms",
@@ -8582,7 +8582,7 @@
     "Projects": [
       "Kartta"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "mobile",
       "media capture",
@@ -8643,7 +8643,7 @@
     "Projects": [
       "ProjectorBox"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "pbox"
     ],
@@ -8731,7 +8731,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "CES",
       "Information seeking",
@@ -8757,7 +8757,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Passive Thermal Video",
       "Infrared",
@@ -8812,7 +8812,7 @@
     "Projects": [
       "CollaborativeExploratorySearch"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "CES",
       "Collaborative Exploratory Search",
@@ -8841,7 +8841,7 @@
     "Projects": [
       "CollaborativeExploratorySearch"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "CES",
       "Information seeking",
@@ -8897,7 +8897,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Collaborative Search",
       "Exploratory Search",
@@ -8953,7 +8953,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Collaboration support",
       "control through image",
@@ -8996,7 +8996,7 @@
     "Projects": [
       "CollaborativeExploratorySearch"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "CES"
     ],
@@ -9054,7 +9054,7 @@
     "Projects": [
       "mTable"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "PhotoPlay",
       "mTable",
@@ -9201,7 +9201,7 @@
       "DICE",
       "USE"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Meeting rooms",
       "mobile interaction",
@@ -9246,7 +9246,7 @@
     "Projects": [
       "Interactive Video Search"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "TRECVID",
       "MediaMagic",
@@ -9329,7 +9329,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "04/06/2007",
     "palwebID": "PR-07-407",
@@ -9450,7 +9450,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Multiple display systems",
       "slideshows",
@@ -9563,7 +9563,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Illustration",
       "2d",
@@ -9589,7 +9589,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubidaptive"
     ],
@@ -9613,7 +9613,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "quantum computing",
       "quantum information processing",
@@ -9642,7 +9642,7 @@
     "Projects": [
       "Interactive Video Search"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "trecvid",
       "TRECVID",
@@ -9670,7 +9670,7 @@
     "Projects": [
       "USE"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "USE"
     ],
@@ -9693,7 +9693,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "3D",
       "2D",
@@ -9766,7 +9766,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Search",
       "mobile code",
@@ -9796,7 +9796,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Mobile code",
       "Java",
@@ -9934,7 +9934,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-06-387",
@@ -9959,7 +9959,7 @@
     "Projects": [
       "VideoSurveillance"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-06-386",
@@ -10019,7 +10019,7 @@
       "USE",
       "DICE"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "USE",
       "DICE",
@@ -10062,7 +10062,7 @@
       "USE",
       "DICE"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "USE",
       "DICE",
@@ -10106,7 +10106,7 @@
     "Projects": [
       "VideoSurveillance"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Coupled Hidden Markov Model",
       "Event Detection",
@@ -10196,7 +10196,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Technolgy",
       "Complexity",
@@ -10226,7 +10226,7 @@
       "PALBar",
       "VideoGuestbook"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "corpmem",
       "pbox",
@@ -10313,7 +10313,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Author Keywords\r\nDesign methods",
       "design critique",
@@ -10345,7 +10345,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "PLSA",
       "LSA",
@@ -10374,7 +10374,7 @@
     "Projects": [
       "Interactive Video Search"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "trecvid",
       "TRECVID",
@@ -10401,7 +10401,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "WST",
       "Document services",
@@ -10425,7 +10425,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Overlay Networks",
       "Collaboration",
@@ -10452,7 +10452,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "06/16/2005",
     "palwebID": "PR-05-355",
@@ -10539,7 +10539,7 @@
     "Projects": [
       "ProjectorBox"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "mic",
       "pbox"
@@ -10568,7 +10568,7 @@
     "Projects": [
       "ProjectorBox"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "mic",
       "pbox"
@@ -10597,7 +10597,7 @@
     "Projects": [
       "EMM"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Object Recognition",
       "SIFT",
@@ -10624,7 +10624,7 @@
     "Projects": [
       "FlyCam"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "FlyCam"
     ],
@@ -10649,7 +10649,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "3d",
       "illustration",
@@ -10673,7 +10673,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "3D",
       "Illustration",
@@ -10701,7 +10701,7 @@
       "DICE",
       "USE"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "USE",
       "DICE",
@@ -10838,7 +10838,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "3D Syllabus",
       "education applications",
@@ -10905,7 +10905,7 @@
     "Projects": [
       "Post-Bits"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Tangible media",
       "handheld displays",
@@ -10960,7 +10960,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "WST",
       "web services",
@@ -11126,7 +11126,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "digital photo"
     ],
@@ -11148,7 +11148,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubisight"
     ],
@@ -11202,7 +11202,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-05-315",
@@ -11254,7 +11254,7 @@
     "Projects": [
       "Interactive Video Search"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "TRECVID",
       "video segmentation",
@@ -11311,7 +11311,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "NL",
       "discourse",
@@ -11371,7 +11371,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-04-294",
@@ -11422,7 +11422,7 @@
     "Projects": [
       "PlasmaPoster"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "situated display",
       "information sharing",
@@ -11457,7 +11457,7 @@
     "Projects": [
       "DigitalPhotographManagement"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "media",
       "rmo",
@@ -11487,7 +11487,7 @@
       "DigitalPhotographManagement",
       "StainedGlassCollage"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "media",
       "rmo",
@@ -11706,7 +11706,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "NL",
       "discourse",
@@ -11802,7 +11802,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive",
       "Immersive conferencing",
@@ -11836,7 +11836,7 @@
     "Projects": [
       "ePic"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive",
       "Immersive conferencing",
@@ -11868,7 +11868,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-04-356",
@@ -11893,7 +11893,7 @@
     "Projects": [
       "SharedTextInput"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "shared text input",
       "pda",
@@ -11920,7 +11920,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-04-281",
@@ -11968,7 +11968,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "NL",
       "Natural Language",
@@ -12091,7 +12091,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Handheld devices",
       "wireless networking",
@@ -12119,7 +12119,7 @@
     "Projects": [
       "InteractiveVideoSearch"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "trecvid",
       "video segmentation",
@@ -12284,7 +12284,7 @@
     "Projects": [
       "PlasmaPoster"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Plasma Poster Network",
       "information distribution",
@@ -12316,7 +12316,7 @@
     "Projects": [
       "PlasmaPoster"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "CSCW",
       "HCI",
@@ -12562,7 +12562,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "NL"
     ],
@@ -12611,7 +12611,7 @@
     "Projects": [
       "PlasmaPoster"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Palimpsests",
       "Annotating Community Content",
@@ -12754,7 +12754,7 @@
       "Hitchcock",
       "Hyper-Hitchcock"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "hitchcock",
       "hyperhitchcock",
@@ -12814,7 +12814,7 @@
     "Projects": [
       "DigitalPhotographManagement"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "rmo",
       "photo",
@@ -12845,7 +12845,7 @@
       "Hitchcock",
       "Hyper-Hitchcock"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "hitchcock",
       "hyperhitchcock",
@@ -12906,7 +12906,7 @@
       "FlySPEC",
       "NoteLook"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "multiple displays",
       "gestural interfaces",
@@ -12948,7 +12948,7 @@
     "Projects": [
       "PlasmaPoster"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "plasma poster",
       "digital community bulletin board",
@@ -13040,7 +13040,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "NL"
     ],
@@ -13172,7 +13172,7 @@
     "Projects": [
       "FlySPEC"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive",
       "SPEC",
@@ -13201,7 +13201,7 @@
     "Projects": [
       "M-Links"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubiquitous",
       "m-links"
@@ -13228,7 +13228,7 @@
     "Projects": [
       "PIPs"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubiquitous",
       "pips"
@@ -13376,7 +13376,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "11/30/2002",
     "palwebID": "PR-03-266",
@@ -13397,7 +13397,7 @@
     "Projects": [
       "MusicSummarization"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "similarity",
       "media",
@@ -13477,7 +13477,7 @@
     "Projects": [
       "Hitchcock"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "hitchcock",
       "media",
@@ -13565,7 +13565,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "digital video",
       "asynchronous sharing",
@@ -13612,7 +13612,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "09/06/2002",
     "palwebID": "PR-02-185",
@@ -13710,7 +13710,7 @@
     "Projects": [
       "MusicSummarization"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "similarity",
       "media",
@@ -13738,7 +13738,7 @@
     "Projects": [
       "MusicSummarization"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "media",
       "similarity",
@@ -13794,7 +13794,7 @@
     "Projects": [
       "PIPs"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubiquitous",
       "pips"
@@ -13840,7 +13840,7 @@
     "Projects": [
       "PIPs"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "21stCenturyComputing",
       "quantum"
@@ -13867,7 +13867,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "09/01/2002",
     "palwebID": "PR-02-253",
@@ -13918,7 +13918,7 @@
     "Projects": [
       "FlySPEC"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "SPEC",
       "flyspec",
@@ -13950,7 +13950,7 @@
       "FlyAbout",
       "FlyCam"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "flyabout",
       "flycam",
@@ -13980,7 +13980,7 @@
       "FlyCam",
       "FlySPEC"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive",
       "flyspec",
@@ -14009,7 +14009,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "21stCenturyComputing",
       "modularRobots"
@@ -14035,7 +14035,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "02/18/2002",
     "palwebID": "PR-02-193",
@@ -14061,7 +14061,7 @@
     "Projects": [
       "M-Links"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubiquitous",
       "m-links"
@@ -14260,7 +14260,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "NL"
     ],
@@ -14310,7 +14310,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-01-151",
@@ -14513,7 +14513,7 @@
       "FlyAbout",
       "FlyCam"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "flycam",
       "flyabout"
@@ -14538,7 +14538,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-01-124",
@@ -14561,7 +14561,7 @@
     "Projects": [
       "MusicSummarization"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "similarity",
       "music",
@@ -14589,7 +14589,7 @@
     "Projects": [
       "FlyCam"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "flycam"
     ],
@@ -14675,7 +14675,7 @@
       "FlySPEC",
       "FlyCam"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive",
       "flyspec",
@@ -14700,7 +14700,7 @@
     "Projects": [
       "immersive"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive"
     ],
@@ -14752,7 +14752,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "ubiquitous"
     ],
@@ -14773,7 +14773,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive"
     ],
@@ -14824,7 +14824,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive"
     ],
@@ -14849,7 +14849,7 @@
     "Projects": [
       "Hitchcock"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "hitchcock",
       "media",
@@ -14877,7 +14877,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "usage data"
     ],
@@ -15078,7 +15078,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "social computing"
     ],
@@ -15148,7 +15148,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-01-192",
@@ -15168,7 +15168,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "hypertext",
       "video",
@@ -15219,7 +15219,7 @@
     "Projects": [
       ""
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "09/04/2000",
     "palwebID": "PR-00-194",
@@ -15277,7 +15277,7 @@
     "Projects": [
       "MusicSummarization"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "media",
       "music",
@@ -15303,7 +15303,7 @@
     "Projects": [
       "NoteLook"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "immersive",
       "video",
@@ -15354,7 +15354,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "social computing"
     ],
@@ -15404,7 +15404,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-00-077",
@@ -15532,7 +15532,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "media",
       "video",
@@ -15585,7 +15585,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-00-101",
@@ -15687,7 +15687,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "media",
       "video"
@@ -15734,7 +15734,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "stickychat",
       "SocComp"
@@ -15791,7 +15791,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-00-131",
@@ -15835,7 +15835,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "social computing",
       "conversational characters",
@@ -15860,7 +15860,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "social computing",
       "conversational characters",
@@ -15886,7 +15886,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-00-059",
@@ -16122,7 +16122,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-99-044",
@@ -16147,7 +16147,7 @@
       "Manga",
       "MBase"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "manga",
       "media",
@@ -16532,7 +16532,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-99-076",
@@ -16648,7 +16648,7 @@
     "Projects": [
       "XLibris"
     ],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "XLibris",
       "annotation",
@@ -17135,7 +17135,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-97-141",
@@ -17227,7 +17227,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [
       "Information seeking",
       "information retrieval",
@@ -17255,7 +17255,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-97-142",
@@ -17520,7 +17520,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-97-143",
@@ -17543,7 +17543,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-96-132",
@@ -17584,7 +17584,7 @@
   },
   {
     "Projects": [],
-    "Publisher": null,
+    "Publisher": "",
     "keywords": [],
     "AcceptDate": "",
     "palwebID": "PR-96-138",
