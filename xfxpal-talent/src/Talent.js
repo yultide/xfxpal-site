@@ -97,7 +97,7 @@ const IDCard = (
                         {getLink('twitter', 'Twitter', twitter)}
                         {getLink('instagram', 'Instagram', instagram)}
                         {getLink('globe', webname, website)}
-                        {getLink('book', 'Publications', '/publications?q=' + makePublicationsUrl(pubSearch), false)}
+                        {getLink('book', 'FXPAL Pubs', '/publications?q=' + makePublicationsUrl(pubSearch), false)}
                     </div>
                 </Card.Meta>
                 <Card.Description>{blurb}</Card.Description>
