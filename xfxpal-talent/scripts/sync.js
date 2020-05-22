@@ -76,6 +76,27 @@ if (cmd === 'people') {
 
     });
   });
+} else if (cmd === 'publications') {
+  const dataUrl = 'https://raw.githubusercontent.com/yulius-fxpal/fxpal-publications/master/publications.json';
+  const jsonFilePath = './src/publications.json'
+  request.get(dataUrl, function(err, response, body) {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    var publications = JSON.parse(body);
+    publications = publications.sort(function(a,b){
+      return new Date(b.PublicationDate) - new Date(a.PublicationDate);
+    });
+    publications.forEach((p) => {
+      p.AuthorsList = p.Authors.join(', ')
+      if (p.keywords)
+        p.keywordsList = p.keywords.join(', ')
+    });
+    let data = JSON.stringify(publications, 0, 2);
+    fs.writeFileSync(jsonFilePath, data);
+    console.log(`Updated ${jsonFilePath} with ${publications.length} publications`);
+  });
 } else {
   console.error(`Unknown command: ${cmd}`)
 }

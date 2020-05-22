@@ -30,7 +30,8 @@ export default class Publications extends React.Component {
 
     state = {
         q: '',
-        publications: []
+        showPublications: 10,
+        publications: publications
     }
 
     componentDidMount() {
@@ -40,14 +41,7 @@ export default class Publications extends React.Component {
             this.field('Abstract')
             this.field('AuthorsList')
             this.field('keywordsList')
-            publications.forEach(
-                (d) => {
-                    d.AuthorsList = d.Authors.join(',')
-                    if (d.keywords)
-                        d.keywordsList = d.keywords.join(',')
-                    this.add(d)
-                }
-            )
+            publications.forEach((d) => this.add(d))
         });
         let pubIdx = {}
         this.pubIdx = pubIdx
@@ -55,7 +49,32 @@ export default class Publications extends React.Component {
             pubIdx[p.ID] = p
         })
 
-        this.setState({publications: this.getRandomArrayElements(publications, 10)})
+        document.addEventListener('scroll', this.trackScrolling);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener('scroll', this.trackScrolling);
+    }
+
+    isBottom(el) {
+        return el.getBoundingClientRect().bottom <= window.innerHeight;
+    }
+
+    trackScrolling = () => {
+        const wrappedElement = document.getElementById('root');
+        if (this.isBottom(wrappedElement)) {
+            console.log('header bottom reached');
+            //document.removeEventListener('scroll', this.trackScrolling);
+            var numPubs = this.state.showPublications + 10;
+            if (numPubs > publications.length) {
+                numPubs = publications.length
+            }
+            if (this.state.showPublications !== numPubs) {
+                this.setState({
+                    showPublications: numPubs,
+                })
+            }
+        }
     }
 
     getRandomArrayElements(arr, count) {
@@ -75,13 +94,18 @@ export default class Publications extends React.Component {
             if (results) {
                 let self = this;
                 return results.map((r) => {
-                    return self.pubIdx[r.ref]
-                })
+                        // convert search results to list of publications
+                        return self.pubIdx[r.ref]
+                    })
+                    .sort((a,b) => {
+                        // reverse sort
+                        return new Date(b.PublicationDate) - new Date(a.PublicationDate);
+                    });
             } else {
                 return []
             }
         } else {
-            return this.getRandomArrayElements(publications, 10)
+            return publications
         }
     }
 
@@ -107,20 +131,21 @@ export default class Publications extends React.Component {
             <Input fluid icon='search' placeholder='Search...'
                 value={this.state.q} onChange={this.onQueryChange} onKeyPress={this.onKeyPress}
             />
-            {this.state.publications.map((p,i) => {
+            {this.state.publications.slice(0, this.state.showPublications).map((p,i) => {
                 return <Card fluid key={i} style={style.card}>
                     <Card.Content textAlign='left'>
                         <Card.Header>{p.Title}</Card.Header>
                         <Card.Description>
-                            <div><span style={style.hilight}>Authors:</span> {p.Authors.join(', ')}</div>
+                            <div><span style={style.hilight}>Authors:</span> {p.AuthorsList}</div>
                             <div><span style={style.hilight}>Publication Date:</span> {p.PublicationDate}</div>
                             <div><span style={style.hilight}>Venue:</span> {p.Venue}</div>
+                            { p.Publisher ? <div><span style={style.hilight}>DOI:</span> <a href={p.Publisher}>{p.Publisher}</a> </div> : null }
                             { p.Abstract ?
                                 <div style={style.abstract}><span style={style.hilight}>Abstract:</span>
                                     <p>{p.Abstract}</p>
                                 </div> : null }
-                            { p.keywords ?
-                                <div><span style={style.hilight}>Tags:</span> {p.keywords.join(', ')}</div>
+                            { p.keywordsList ?
+                                <div><span style={style.hilight}>Tags:</span> {p.keywordsList}</div>
                                 : null }
                         </Card.Description>
                     </Card.Content>
