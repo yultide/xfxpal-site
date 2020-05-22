@@ -1,6 +1,7 @@
 import React from 'react'
-import { Header, Card, Grid, Input, Form } from 'semantic-ui-react'
+import { Header, Card, Form } from 'semantic-ui-react'
 import lunr from 'lunr'
+import queryString from 'query-string'
 
 import publications from './publications.json'
 
@@ -30,6 +31,7 @@ export default class Publications extends React.Component {
 
     state = {
         q: '',
+        queryText: '',
         publicationCount: 10,
         publications: publications
     }
@@ -48,6 +50,9 @@ export default class Publications extends React.Component {
         publications.forEach((p) => {
             pubIdx[p.ID] = p
         })
+
+        let qs = queryString.parse(window.location.search);
+        this.setState({'queryText': qs.q, 'q': qs.q});
 
         document.addEventListener('scroll', this.trackScrolling);
     }
@@ -110,28 +115,34 @@ export default class Publications extends React.Component {
     }
 
     onQueryChange = (event) => {
-        this.setState({q: event.target.value})
-        if (event.target.value === '') {
-            let publications = this.searchText(event.target.value)
-            this.setState({publications})
-        }
+        this.setState({queryText: event.target.value})
     }
 
     onKeyPress = (event) => {
         if (event.key === 'Enter') {
-            let publications = this.searchText(this.state.q)
-            this.setState({publications, publicationCount: 10})
+            // let publications = this.searchText(event.target.value)
+            this.setState({q: event.target.value, publicationCount: 10})
+
+            // update location
+            if (window.history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?q=' + encodeURIComponent(event.target.value);
+                window.history.pushState({path:newurl},'',newurl);
+            }
         }
     }
 
     render() {
+        let pubs = this.searchText(this.state.q);
         return (
             <>
             <Header as="h1" style={style.h1} textAlign='center' >FXPAL publishes in top scientific conferences and journals</Header>
-            <Input fluid icon='search' placeholder='Search...'
-                value={this.state.q} onChange={this.onQueryChange} onKeyPress={this.onKeyPress}
+            <Form>
+            <Form.Input fluid icon='search' placeholder='Search...'
+                value={this.state.queryText} onChange={this.onQueryChange} onKeyPress={this.onKeyPress}
+                autoFocus
             />
-            {this.state.publications.slice(0, this.state.publicationCount).map((p,i) => {
+            </Form>
+            {pubs.slice(0, this.state.publicationCount).map((p,i) => {
                 return <Card fluid key={i} style={style.card}>
                     <Card.Content textAlign='left'>
                         <Card.Header dangerouslySetInnerHTML={{ __html: p.Title}} />
