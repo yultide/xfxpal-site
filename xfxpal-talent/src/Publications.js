@@ -4,6 +4,7 @@ import lunr from 'lunr'
 import queryString from 'query-string'
 
 import publications from './publications.json'
+import publicationsIndex from './publications-idx.json'
 
 const style = {
     h1: {
@@ -37,14 +38,9 @@ export default class Publications extends React.Component {
     }
 
     componentDidMount() {
-        this.idx = lunr(function() {
-            this.ref('ID')
-            this.field('Title')
-            this.field('Abstract')
-            this.field('AuthorsList')
-            this.field('keywordsList')
-            publications.forEach((d) => this.add(d))
-        });
+        // load from prebuilt index
+        this.idx = lunr.Index.load(publicationsIndex)
+
         let pubIdx = {}
         this.pubIdx = pubIdx
         publications.forEach((p) => {

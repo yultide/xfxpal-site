@@ -3,6 +3,7 @@ const yargs = require('yargs');
 const fs = require('fs');
 const request = require('request');
 const authorize = require('./authorize');
+const lunr = require('lunr');
 
 const argv = yargs
   .scriptName("synch.js")
@@ -79,22 +80,50 @@ if (cmd === 'people') {
 } else if (cmd === 'publications') {
   const dataUrl = 'https://raw.githubusercontent.com/yulius-fxpal/fxpal-publications/master/publications.json';
   const jsonFilePath = './src/publications.json'
+  const jsonIdxFilePath = './src/publications-idx.json'
   request.get(dataUrl, function(err, response, body) {
     if (err) {
       console.log(err);
       return;
     }
     var publications = JSON.parse(body);
+
+    // sort
     publications = publications.sort(function(a,b){
-      return new Date(b.PublicationDate) - new Date(a.PublicationDate);
+      var result = new Date(b.PublicationDate) - new Date(a.PublicationDate);
+      if (result === 0) {
+        // if same date, we will use the ids to keep sort stable
+        return parseInt(a.ID) - parseInt(b.ID);
+      } else {
+        return result;
+      }
     });
+
+    // generate lists keys
     publications.forEach((p) => {
       p.AuthorsList = p.Authors.join(', ')
       if (p.keywords)
         p.keywordsList = p.keywords.join(', ')
     });
+
+    // generate search index
+    let idx = lunr(function() {
+      this.ref('ID')
+      this.field('Title')
+      this.field('Abstract')
+      this.field('AuthorsList')
+      this.field('keywordsList')
+      publications.forEach((d) => this.add(d))
+    });
+
+    // save json
     let data = JSON.stringify(publications, 0, 2);
     fs.writeFileSync(jsonFilePath, data);
+
+    // save index json
+    let dataIdx = JSON.stringify(idx, 0, 2);
+    fs.writeFileSync(jsonIdxFilePath, dataIdx);
+
     console.log(`Updated ${jsonFilePath} with ${publications.length} publications`);
   });
 } else {
