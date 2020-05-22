@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Menu } from 'semantic-ui-react';
+import { Container, Menu, Segment, Dimmer, Loader } from 'semantic-ui-react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 
 import './App.css';
 
-import Talent from './Talent'
-import Publications from './Publications'
-import Videos from './Videos'
+const Talent = React.lazy(() => import('./Talent'))
+const Publications = React.lazy(() => import('./Publications'))
+const Videos = React.lazy(() => import('./Videos'))
 
 const SiteMenu = () => (
   <Menu pointing secondary>
@@ -21,11 +21,17 @@ function App() {
     <Router>
       <Container>
         <SiteMenu />
+        <React.Suspense fallback={
+            <Dimmer active inverted>
+              <Loader inverted content='Loading' />
+            </Dimmer>
+        }>
         <Switch>
           <Route component={Publications} path="/publications" />
           <Route component={Videos} path="/videos" />
           <Route component={Talent} path="/" exact />
         </Switch>
+        </React.Suspense>
       </Container>
     </Router>
   );
