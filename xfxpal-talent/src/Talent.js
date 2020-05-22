@@ -81,6 +81,7 @@ const IDCard = (
                         {getLink('twitter', 'Twitter', twitter)}
                         {getLink('instagram', 'Instagram', instagram)}
                         {getLink('globe', webname, website)}
+                        {getLink('book', 'Publications', '/publications?q=' + encodeURIComponent(name))}
                     </div>
                 </Card.Meta>
                 <Card.Description>{blurb}</Card.Description>
