@@ -15,7 +15,8 @@
     "Resume": "https://drive.google.com/open?id=15DxWGnMmYhVDqplt_zOz4Abs4nJiWktj",
     "Other Website": "",
     "Pretty Name for Other Website": "",
-    "Photo": "https://drive.google.com/open?id=1iaccbsldV0S42KVJ51Ji0L31R-aj0eYM"
+    "Photo": "https://drive.google.com/open?id=1iaccbsldV0S42KVJ51Ji0L31R-aj0eYM",
+    "Hide my information": ""
   },
   {
     "Timestamp": "5/18/2020 15:24:26",
@@ -33,7 +34,8 @@
     "Resume": "http://shamur.ai/cv.pdf",
     "Other Website": "https://shamur.ai/",
     "Pretty Name for Other Website": "",
-    "Photo": "https://drive.google.com/open?id=1UFbNb6CH1A4G3Nzld14P4OEGXKE1hOiV"
+    "Photo": "https://drive.google.com/open?id=1UFbNb6CH1A4G3Nzld14P4OEGXKE1hOiV",
+    "Hide my information": ""
   },
   {
     "Timestamp": "5/13/2020 15:07:39",
@@ -51,7 +53,8 @@
     "Resume": "https://drive.google.com/open?id=1obSdnc5aSKym3usMNc74LNLfUg7L_Fhl",
     "Other Website": "",
     "Pretty Name for Other Website": "",
-    "Photo": "https://drive.google.com/open?id=1v15ZHvKDnyIElS5Cm0gauzDoF6GLWjyJ"
+    "Photo": "https://drive.google.com/open?id=1v15ZHvKDnyIElS5Cm0gauzDoF6GLWjyJ",
+    "Hide my information": ""
   },
   {
     "Timestamp": "5/15/2020 16:20:54",
@@ -69,7 +72,8 @@
     "Resume": "",
     "Other Website": "https://www.yanxiazhang.com",
     "Pretty Name for Other Website": "Website",
-    "Photo": ""
+    "Photo": "",
+    "Hide my information": "yes"
   },
   {
     "Timestamp": "5/13/2020 20:30:23",
@@ -87,7 +91,8 @@
     "Resume": "https://www.girgensohn.com/andreas/resume.html",
     "Other Website": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=Girgensohn%3B+Andreas&FIELD1=INNM&co1=AND&TERM2=&FIELD2=&d=PTXT",
     "Pretty Name for Other Website": "Patents",
-    "Photo": "https://drive.google.com/open?id=1uYWUnKCwiwjonptyNm7fWa6q0ZUVXfF0"
+    "Photo": "https://drive.google.com/open?id=1uYWUnKCwiwjonptyNm7fWa6q0ZUVXfF0",
+    "Hide my information": ""
   },
   {
     "Timestamp": "5/13/2020 21:29:41",
@@ -105,7 +110,8 @@
     "Resume": "https://www.dunnigan.net/resume",
     "Other Website": "https://www.dunnigan.net",
     "Pretty Name for Other Website": "",
-    "Photo": "https://drive.google.com/open?id=14FPCgnzmxpRLtcphvObDHbpAszZEM6o5"
+    "Photo": "https://drive.google.com/open?id=14FPCgnzmxpRLtcphvObDHbpAszZEM6o5",
+    "Hide my information": ""
   },
   {
     "Timestamp": "5/15/2020 7:42:26",
@@ -123,7 +129,8 @@
     "Resume": "https://docs.google.com/document/d/1Z3w4yZX2A-S8N184S0ZAhQOXQ6te0iY1cSB4T-IXbGE/edit?usp=sharing",
     "Other Website": "https://www.appblit.com",
     "Pretty Name for Other Website": "",
-    "Photo": "https://drive.google.com/open?id=1mRRI4nl5R3ZhyHp7lp16gfY49IoPTm1b"
+    "Photo": "https://drive.google.com/open?id=1mRRI4nl5R3ZhyHp7lp16gfY49IoPTm1b",
+    "Hide my information": ""
   },
   {
     "Timestamp": "5/21/2020 20:43:41",
@@ -141,6 +148,7 @@
     "Resume": "http://uxdaniel.me/DanielAvrahami_CV.pdf",
     "Other Website": "http://uxdaniel.me/",
     "Pretty Name for Other Website": "Homepage",
-    "Photo": "https://drive.google.com/open?id=1VpMPpzQuG2RsyeVRzSg6owxrVMqvGLUJ"
+    "Photo": "https://drive.google.com/open?id=1VpMPpzQuG2RsyeVRzSg6owxrVMqvGLUJ",
+    "Hide my information": ""
   }
 ]

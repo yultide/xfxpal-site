@@ -111,10 +111,11 @@ const shuffleArr = (array) => {
         var rand = Math.floor(Math.random() * (i + 1));
         [array[i], array[rand]] = [array[rand], array[i]];
     }
+    return array.filter(p => p['Hide my information'] !== 'yes');
 };
 
 export default () => {
-    shuffleArr(peopleJson);
+    let people = shuffleArr(peopleJson);
     return (
         <>
             <Header
@@ -124,7 +125,7 @@ export default () => {
                 textAlign='center'
             />
             <Card.Group itemsPerRow='2' stackable={true}>
-                {peopleJson.map((pj, i) =>
+                {people.map((pj, i) =>
                     IDCard(
                         i,
                         pj['Name'],
