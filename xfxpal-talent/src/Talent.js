@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { Icon, Image, Card, Header } from 'semantic-ui-react';
+import { Icon, Card, Header } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import BlurImage from './BlurImage';
 
 import peopleJson from './people.json';
 import { peopleMap } from './peopleMap';
@@ -57,6 +58,7 @@ const IDCard = (
     website = '',
     webname = 'Website',
     imagefile = '',
+    blurhash = '',
     pubSearch = ''
 ) => {
     let region = location;
@@ -73,8 +75,11 @@ const IDCard = (
     return (
         <Card fluid key={key}>
             <Card.Content textAlign='left'>
-                <Image
+                <BlurImage
+                    blurhash={blurhash}
                     style={{ width: '150px', height: '150px' }}
+                    width={150}
+                    height={150}
                     rounded
                     floated='right'
                     size='small'
@@ -143,6 +148,7 @@ export default () => {
                         pj['Other Website'],
                         pj['Pretty Name for Other Website'],
                         peopleMap[pj['Name']].image,
+                        peopleMap[pj['Name']].blurhash || 'UEHV6nWB2yk8pyoJadR*.7kCMdnjS#M|%1%2',
                         peopleMap[pj['Name']].pubSearch || pj['Name']
                     )
                 )}{' '}
