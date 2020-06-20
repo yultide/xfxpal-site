@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { decode } from 'blurhash';
 import { Image } from 'semantic-ui-react';
-
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 
 function useBlurhash(
     blurhash,
@@ -60,9 +61,12 @@ export default function BlurImage(allProps) {
 
     const blurUrl = useBlurhash(blurhash, width, height);
 
+    const [isOpen, setOpen] = useState(false);
+
     const newStyle = blurUrl
         ? {
             ...style,
+            cursor: 'pointer',
             backgroundImage: `url("${blurUrl}")`,
             backgroundSize:
                 props.width && props.height
@@ -71,14 +75,24 @@ export default function BlurImage(allProps) {
         }
         : {
             ...style,
+            cursor: 'pointer',
         };
 
     return (
+        <>
         <Image
             {...props}
             loading={loading}
             style={newStyle}
             alt=''
+            onClick={() => setOpen(true)}
         />
+        {isOpen && (<Lightbox
+            mainSrc={props.src}
+            imageTitle={props.alt}
+            onCloseRequest={() => setOpen(false)}
+            />)}
+        </>
+
     );
 }

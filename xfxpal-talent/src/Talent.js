@@ -83,6 +83,7 @@ const IDCard = (
                     rounded
                     floated='right'
                     size='small'
+                    title={name}
                     src={process.env.PUBLIC_URL + 'images/' + imagefile}
                 />
                 <Card.Header>{name}</Card.Header>
