@@ -10,6 +10,15 @@ const style = {
     }
 }
 
+const localVideos = [
+    {
+        id: 'KumoCrown_TVX',
+        url: 'https://xfxpal.com/static/videos/03-29-19_KumoCrown_TVX.mp4',
+        thumb: 'https://xfxpal.com/static/videos/03-29-19_KumoCrown_TVX.jpg',
+        title: 'KumoCrown TVX'
+    }
+]
+
 export default class Videos extends React.Component {
 
     componentDidMount() {
@@ -28,17 +37,32 @@ export default class Videos extends React.Component {
                     ]}
                 >
                     <Grid columns={4} doubling stackable>
+                    {localVideos.map((v,i) => {
+                        // implement youtube links for now
+                        let videoUrl = v.url;
+                        let videoThumb = v.thumb;
+                        return <Grid.Column key={v.id}>
+                            <Popup
+                                content={v.title}
+                                trigger={
+                                    <a href={videoUrl} target="_new">
+                                        <Image src={videoThumb} size='massive' rounded />
+                                    </a>
+                                }
+                            />
+                            </Grid.Column>
+                    })}
                     {videos.filter((v) => {
                         return !blacklist.has(v.videoId)
                     }).map((v,i) => {
                         // implement youtube links for now
                         let videoUrl = `https://youtu.be/${v.videoId}`;
                         let videoThumb = `https://i3.ytimg.com/vi/${v.videoId}/mqdefault.jpg`;
-                        return <Grid.Column key={i}>
+                        return <Grid.Column key={v.videoId}>
                             <LightgalleryItem group='any' src={videoUrl} thumb={videoThumb}>
                                 <Popup
                                     content={v.title}
-                                    trigger={<Image src={videoThumb} size='massive' rounded />}
+                                    trigger={<Image style={{cursor:'pointer'}} src={videoThumb} size='massive' rounded />}
                                 />
                             </LightgalleryItem>
                             </Grid.Column>
