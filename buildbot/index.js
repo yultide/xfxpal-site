@@ -68,6 +68,13 @@ const handlers = {
                 "msgtype": "m.notice",
                 "body": "💣 Build failed"
             })
+            setTimeout(function() {
+                client.sendMessage(roomId, {
+                    "msgtype": "m.notice",
+                    "body": "Restarting..."
+                });
+                process.exit();
+            }, 1000)
         })
     },
     'debug': {
@@ -145,7 +152,6 @@ function deployBot() {
                 reject(stderr);
             } else {
                 resolve(stdout);
-                process.exit()
             }
         });
     });
