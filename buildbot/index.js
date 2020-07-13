@@ -48,34 +48,37 @@ const handlers = {
         },
         'help': 'Deploys xfxpal site'
     },
-    'deploy bot': function(roomId, event) {
-        client.sendMessage(roomId, {
-            "msgtype": "m.notice",
-            "body": "👍 Starting build...",
-        })
-        deployBot().then(function(result) {
-            lastResult = result;
-            lastError = null;
+    'deploy bot': {
+        'handler': function(roomId, event) {
             client.sendMessage(roomId, {
                 "msgtype": "m.notice",
-                "body": "🍺 Build succeeded"
+                "body": "👍 Starting build...",
             })
-        }).catch(function(e) {
-            lastResult = ''
-            lastError = e;
-            console.error(e);
-            client.sendMessage(roomId, {
-                "msgtype": "m.notice",
-                "body": "💣 Build failed"
-            })
-            setTimeout(function() {
+            deployBot().then(function(result) {
+                lastResult = result;
+                lastError = null;
                 client.sendMessage(roomId, {
                     "msgtype": "m.notice",
-                    "body": "Restarting..."
-                });
-                process.exit();
-            }, 1000)
-        })
+                    "body": "🍺 Build succeeded"
+                })
+            }).catch(function(e) {
+                lastResult = ''
+                lastError = e;
+                console.error(e);
+                client.sendMessage(roomId, {
+                    "msgtype": "m.notice",
+                    "body": "💣 Build failed"
+                })
+                setTimeout(function() {
+                    client.sendMessage(roomId, {
+                        "msgtype": "m.notice",
+                        "body": "Restarting..."
+                    });
+                    process.exit();
+                }, 1000)
+            })
+        },
+        'help': 'Deploys buildbot'
     },
     'debug': {
         'handler': function(roomId, event) {
