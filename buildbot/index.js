@@ -61,11 +61,11 @@ const handlers = {
                     "msgtype": "m.notice",
                     "body": "🍺 Build succeeded"
                 })
+                client.sendMessage(roomId, {
+                    "msgtype": "m.notice",
+                    "body": "Restarting..."
+                });
                 setTimeout(function() {
-                    client.sendMessage(roomId, {
-                        "msgtype": "m.notice",
-                        "body": "Restarting..."
-                    });
                     process.exit();
                 }, 1000)
             }).catch(function(e) {
