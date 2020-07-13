@@ -19,7 +19,7 @@ var startedTS = new Date().toLocaleString();
 client.getUserId().then(uid => clientUserId = uid);
 
 exec("./scripts/git-version.sh", (error, stdout, stderr) => {
-    version = stdout;
+    version = stdout.replace(/\n$/, '');
 });
 
 const handlers = {
