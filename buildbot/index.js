@@ -61,6 +61,13 @@ const handlers = {
                     "msgtype": "m.notice",
                     "body": "🍺 Build succeeded"
                 })
+                setTimeout(function() {
+                    client.sendMessage(roomId, {
+                        "msgtype": "m.notice",
+                        "body": "Restarting..."
+                    });
+                    process.exit();
+                }, 1000)
             }).catch(function(e) {
                 lastResult = ''
                 lastError = e;
@@ -69,13 +76,6 @@ const handlers = {
                     "msgtype": "m.notice",
                     "body": "💣 Build failed"
                 })
-                setTimeout(function() {
-                    client.sendMessage(roomId, {
-                        "msgtype": "m.notice",
-                        "body": "Restarting..."
-                    });
-                    process.exit();
-                }, 1000)
             })
         },
         'help': 'Deploys buildbot'
