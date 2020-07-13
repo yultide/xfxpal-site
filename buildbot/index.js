@@ -149,7 +149,7 @@ function deploySite() {
 
 function deployBot() {
     return new Promise(function(resolve, reject) {
-        const cmd = 'git pull';
+        const cmd = 'sudo git pull';
         exec(cmd, function(err, stdout, stderr) {
             if (err) {
                 reject(stderr);
